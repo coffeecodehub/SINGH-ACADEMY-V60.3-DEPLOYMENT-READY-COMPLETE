@@ -1,0 +1,10 @@
+import {Router} from 'express';
+import {requireAuth,requireRole} from '../middleware/auth.js';
+import {pagination,businessError} from '../utils/business.js';
+import {objectId} from '../services/businessRead.js';
+import {rateLimit} from '../middleware/rateLimit.js';
+import StudentNotification from '../models/StudentNotification.js';
+const r=Router();r.use(requireAuth,requireRole('student'));
+r.get('/',async(req,res)=>{const {page,pageSize,skip}=pagination(req.query),filter={user:req.user._id,...(req.query.unread==='true'?{readAt:null}:{})};const [items,total,unread]=await Promise.all([StudentNotification.find(filter).select('title message type link readAt createdAt testMode').sort({createdAt:-1,_id:-1}).skip(skip).limit(pageSize).lean(),StudentNotification.countDocuments(filter),StudentNotification.countDocuments({user:req.user._id,readAt:null})]);res.json({success:true,items,total,unread,page,pageSize});});
+r.patch('/:id/read',rateLimit('student-notification-read',100,60000,{authenticated:true}),async(req,res)=>{const item=await StudentNotification.findOneAndUpdate({_id:objectId(req.params.id),user:req.user._id},{$set:{readAt:new Date()}},{new:true});if(!item)throw businessError('Notification not found.',404);res.json({success:true});});
+export default r;

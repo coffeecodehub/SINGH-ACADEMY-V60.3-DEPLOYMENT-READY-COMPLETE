@@ -1,0 +1,79 @@
+0 verbose cli /opt/nvm/versions/node/v22.16.0/bin/node /opt/nvm/versions/node/v22.16.0/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.16.0
+3 silly config load:file:/opt/nvm/versions/node/v22.16.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/mnt/data/v50-work/singh-academy-v50/backend/.npmrc
+5 silly config load:file:/home/oai/.npmrc
+6 silly config load:file:/opt/nvm/versions/node/v22.16.0/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--ignore-scripts" "--fetch-retries" "0" "--fetch-timeout" "20000"
+9 verbose logfile logs-max:10 dir:/home/oai/.npm/_logs/2026-09-29T12_21_33_033Z-
+10 verbose logfile /home/oai/.npm/_logs/2026-09-29T12_21_33_033Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 silly fetch manifest bcryptjs@^3.0.2
+15 silly packumentCache full:https://registry.npmjs.org/bcryptjs cache-miss
+16 http fetch GET https://registry.npmjs.org/bcryptjs attempt 1 failed with EAI_AGAIN
+17 silly fetch manifest cookie-parser@^1.4.7
+18 silly packumentCache full:https://registry.npmjs.org/cookie-parser cache-miss
+19 http fetch GET https://registry.npmjs.org/cookie-parser attempt 1 failed with EAI_AGAIN
+20 silly fetch manifest cors@^2.8.5
+21 silly packumentCache full:https://registry.npmjs.org/cors cache-miss
+22 http fetch GET https://registry.npmjs.org/cors attempt 1 failed with EAI_AGAIN
+23 silly fetch manifest dotenv@^16.4.7
+24 silly packumentCache full:https://registry.npmjs.org/dotenv cache-miss
+25 http fetch GET https://registry.npmjs.org/dotenv attempt 1 failed with EAI_AGAIN
+26 silly fetch manifest express@5.2.1
+27 silly packumentCache full:https://registry.npmjs.org/express cache-miss
+28 http fetch GET https://registry.npmjs.org/express attempt 1 failed with EAI_AGAIN
+29 silly fetch manifest mongoose@^8.18.0
+30 silly packumentCache full:https://registry.npmjs.org/mongoose cache-miss
+31 http fetch GET https://registry.npmjs.org/mongoose attempt 1 failed with EAI_AGAIN
+32 silly fetch manifest nodemailer@10.0.10
+33 silly packumentCache full:https://registry.npmjs.org/nodemailer cache-miss
+34 http fetch GET https://registry.npmjs.org/nodemailer attempt 1 failed with EAI_AGAIN
+35 silly fetch manifest multer@2.4.0
+36 silly packumentCache full:https://registry.npmjs.org/multer cache-miss
+37 http fetch GET https://registry.npmjs.org/multer attempt 1 failed with EAI_AGAIN
+38 silly fetch manifest sharp@0.35.4
+39 silly packumentCache full:https://registry.npmjs.org/sharp cache-miss
+40 http fetch GET https://registry.npmjs.org/sharp attempt 1 failed with EAI_AGAIN
+41 silly fetch manifest stripe@22.6.2
+42 silly packumentCache full:https://registry.npmjs.org/stripe cache-miss
+43 http fetch GET https://registry.npmjs.org/stripe attempt 1 failed with EAI_AGAIN
+44 silly fetch manifest nodemon@^3.1.10
+45 silly packumentCache full:https://registry.npmjs.org/nodemon cache-miss
+46 http fetch GET https://registry.npmjs.org/nodemon attempt 1 failed with EAI_AGAIN
+47 silly placeDep ROOT bcryptjs@ OK for: singh-academy-backend@48.0.0 want: ^3.0.2
+48 silly placeDep ROOT cookie-parser@ OK for: singh-academy-backend@48.0.0 want: ^1.4.7
+49 silly placeDep ROOT cors@ OK for: singh-academy-backend@48.0.0 want: ^2.8.5
+50 silly placeDep ROOT dotenv@ OK for: singh-academy-backend@48.0.0 want: ^16.4.7
+51 silly placeDep ROOT express@ OK for: singh-academy-backend@48.0.0 want: 5.2.1
+52 silly placeDep ROOT mongoose@ OK for: singh-academy-backend@48.0.0 want: ^8.18.0
+53 silly placeDep ROOT multer@ OK for: singh-academy-backend@48.0.0 want: 2.4.0
+54 silly placeDep ROOT nodemailer@ OK for: singh-academy-backend@48.0.0 want: 10.0.10
+55 silly placeDep ROOT nodemon@ OK for: singh-academy-backend@48.0.0 want: ^3.1.10
+56 silly placeDep ROOT sharp@ OK for: singh-academy-backend@48.0.0 want: 0.35.4
+57 silly placeDep ROOT stripe@ OK for: singh-academy-backend@48.0.0 want: 22.6.2
+58 verbose type system
+59 verbose stack FetchError: request to https://registry.npmjs.org/bcryptjs failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org
+59 verbose stack     at ClientRequest.<anonymous> (/opt/nvm/versions/node/v22.16.0/lib/node_modules/npm/node_modules/minipass-fetch/lib/index.js:130:14)
+59 verbose stack     at ClientRequest.emit (node:events:518:28)
+59 verbose stack     at emitErrorEvent (node:_http_client:104:11)
+59 verbose stack     at _destroy (node:_http_client:898:9)
+59 verbose stack     at onSocketNT (node:_http_client:918:5)
+59 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+60 error code EAI_AGAIN
+61 error syscall getaddrinfo
+62 error errno EAI_AGAIN
+63 error request to https://registry.npmjs.org/bcryptjs failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org
+64 silly unfinished npm timer reify 1790684493308
+65 silly unfinished npm timer reify:loadTrees 1790684493308
+66 verbose cwd /mnt/data/v50-work/singh-academy-v50/backend
+67 verbose os Linux 6.18.44
+68 verbose node v22.16.0
+69 verbose npm  v10.9.2
+70 verbose exit 1
+71 verbose code 1
+72 error A complete log of this run can be found in: /home/oai/.npm/_logs/2026-09-29T12_21_33_033Z-debug-0.log

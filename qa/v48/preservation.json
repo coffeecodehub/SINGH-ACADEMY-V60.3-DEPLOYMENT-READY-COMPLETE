@@ -1,0 +1,1029 @@
+{
+  "baseline": "SINGH-ACADEMY-V47-UI-PAYMENTS-CERTIFICATES.zip",
+  "publicFilesCompared": 252,
+  "publicFilesUnchanged": 252,
+  "otherPreservation": [
+    {
+      "file": "frontend/app/styles.css",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/components/SiteHeader.tsx",
+      "unchanged": true
+    },
+    {
+      "file": "backend/src/services/certificatePdf.js",
+      "unchanged": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "frontend/public/images/about/about-01.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/about/about-02.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/about/about-03.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/about/about-04.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/about/about-05.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/about/about-06.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/academy/singh-academy-brand-guide.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/courses/course-catalog-reference.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/courses/course-placeholder.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/courses/cross-cultural-community.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/courses/cross-cultural.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/courses/mediate-to-settle.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/courses/public-speaking.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/events/academy-workshop.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/events/global-event.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/events/rising-tide-group.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/events/rising-tide-panel.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/events/workshop-outdoor.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/faculty/member-01.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/faculty/member-02.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/faculty/member-03.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/faculty/member-04.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/faculty/member-05.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/faculty/member-06.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/faculty/member-07.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/faculty/member-08.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/faculty/member-09.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/faculty/member-10.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/faculty/member-11.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/faculty/member-12.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/faculty/member-13.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/founder/cross-cultural-book.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/founder/dr-singh-office.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/founder/dr-sukhsimranjit-singh.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/founder/dr-sukhsimranjit-singh.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/hero/academy-hero.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/Aloysius Goh.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/Deep Basraon.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/Dr. Amarjeet Singh Chandhiok.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/Dr. Shiloh Catanese.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/Jo Smith (1).png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/Judge Ann Claire Williams.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/Judge Daniel Weinstein.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/Judge Vanessa Zecher.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/Julie Ryan.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/Justice Gita Mittal.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/Montek Singh Ahluwalia.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/Mr. Adi Gavrilla.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/Mr. Leonardo D\u0393\u00c7\u00d6Urso Faculty.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/Prof. Mayu Watanabe.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/Victor Baba JR.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/aloysius-goh.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/deep-basraon.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/dr-amarjeet-singh-chandhiok.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/dr-jeff-stuart.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/dr-shiloh-catanese.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/faculty-placeholder.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/jo-smith-1.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/judge rebecca westerfield.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/judge-ann-claire-williams.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/judge-daniel-weinstein.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/judge-rebecca-westerfield.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/judge-vanessa-zecher.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/julie-ryan.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/justice-gita-mittal.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/lilit-yeremyan.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/montek-singh-ahluwalia.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/mr-adi-gavrilla.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/mr-leonardo-d-urso-faculty.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/prof-mayu-watanabe.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/images/team/victor-baba-jr.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/logo-reference.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/03c6128422f457c4-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/03c6128422f457c4-1816.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/03c6128422f457c4-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/03c6128422f457c4-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/03c6128422f457c4-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/105934a045ea0c88-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/105934a045ea0c88-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/105934a045ea0c88-720.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/159093844148271c-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/159093844148271c-1420.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/159093844148271c-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/159093844148271c-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/159093844148271c-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/1a9115411a6e8871-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/1a9115411a6e8871-1420.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/1a9115411a6e8871-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/1a9115411a6e8871-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/1a9115411a6e8871-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/1ed50cfaeb45e41e-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/1ed50cfaeb45e41e-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/1ed50cfaeb45e41e-720.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/218ac50924ec0449-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/218ac50924ec0449-1420.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/218ac50924ec0449-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/218ac50924ec0449-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/218ac50924ec0449-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/286432a191091959-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/286432a191091959-1560.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/286432a191091959-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/286432a191091959-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/286432a191091959-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/293c83498da3edb7-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/293c83498da3edb7-1456.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/293c83498da3edb7-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/293c83498da3edb7-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/293c83498da3edb7-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/2b87ea6931d24f95-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/2b87ea6931d24f95-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/2b87ea6931d24f95-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/2b87ea6931d24f95-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/2ddfbf9f564c269c-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/2ddfbf9f564c269c-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/2ddfbf9f564c269c-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/2ddfbf9f564c269c-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/32f34762caa2b8c2-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/32f34762caa2b8c2-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/32f34762caa2b8c2-720.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/3347b49a8c070124-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/3347b49a8c070124-348.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/33c60e72c34fc368-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/33c60e72c34fc368-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/33c60e72c34fc368-720.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/3571b081ac7a10a6-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/3571b081ac7a10a6-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/3571b081ac7a10a6-720.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/365d32638208e7a5-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/365d32638208e7a5-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/365d32638208e7a5-720.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/41adb482ddcdc06e-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/41adb482ddcdc06e-1536.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/41adb482ddcdc06e-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/41adb482ddcdc06e-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/41adb482ddcdc06e-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/433cd1f6fee74e55-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/433cd1f6fee74e55-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/433cd1f6fee74e55-484.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/44c02b794427b1b9-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/44c02b794427b1b9-1440.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/44c02b794427b1b9-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/44c02b794427b1b9-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/44c02b794427b1b9-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/44cc0eb5f8e662b3-1080.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/44cc0eb5f8e662b3-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/44cc0eb5f8e662b3-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/44cc0eb5f8e662b3-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/4a4c674988b651f1-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/4a4c674988b651f1-1880.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/4a4c674988b651f1-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/4a4c674988b651f1-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/4a4c674988b651f1-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/52577ba67c715bed-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/52577ba67c715bed-1456.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/52577ba67c715bed-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/52577ba67c715bed-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/52577ba67c715bed-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/575a66ca7c5efc40-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/575a66ca7c5efc40-1420.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/575a66ca7c5efc40-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/575a66ca7c5efc40-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/575a66ca7c5efc40-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/5abfb611fa5a9b3f-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/5abfb611fa5a9b3f-387.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/5da1c5e17ba06f69-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/5da1c5e17ba06f69-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/5da1c5e17ba06f69-720.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/5edfc51b9e52425b-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/5edfc51b9e52425b-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/5edfc51b9e52425b-720.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/6b7805881ad9aa8d-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/6b7805881ad9aa8d-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/6b7805881ad9aa8d-720.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/7a9edcd89cba1499-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/7a9edcd89cba1499-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/7a9edcd89cba1499-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/81b7e054c06a6c32-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/81b7e054c06a6c32-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/81b7e054c06a6c32-720.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/81bb1c1f7f91e4ae-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/81bb1c1f7f91e4ae-316.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/8285e7b5e6daba8d-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/8285e7b5e6daba8d-1420.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/8285e7b5e6daba8d-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/8285e7b5e6daba8d-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/8285e7b5e6daba8d-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/8531c7afc44957dc-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/8531c7afc44957dc-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/8531c7afc44957dc-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/8531c7afc44957dc-837.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/8bdb41ed48588a26-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/8bdb41ed48588a26-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/8bdb41ed48588a26-720.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/969a8e686a29a0ac-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/969a8e686a29a0ac-342.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/98d8d55969366c84-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/98d8d55969366c84-479.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/a32069f7c78dfaf8-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/a32069f7c78dfaf8-1420.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/a32069f7c78dfaf8-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/a32069f7c78dfaf8-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/a32069f7c78dfaf8-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/a97ce5db60a034d1-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/a97ce5db60a034d1-1420.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/a97ce5db60a034d1-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/a97ce5db60a034d1-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/a97ce5db60a034d1-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/b5a9cd0f62e99d39-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/b5a9cd0f62e99d39-1420.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/b5a9cd0f62e99d39-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/b5a9cd0f62e99d39-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/b5a9cd0f62e99d39-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/c0f77440330c1fc6-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/c0f77440330c1fc6-1420.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/c0f77440330c1fc6-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/c0f77440330c1fc6-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/c0f77440330c1fc6-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/c7d3ae1455dd2e3d-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/c7d3ae1455dd2e3d-1420.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/c7d3ae1455dd2e3d-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/c7d3ae1455dd2e3d-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/c7d3ae1455dd2e3d-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/cb0de0c4be8d499f-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/cb0de0c4be8d499f-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/cb0de0c4be8d499f-720.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/ccf3e820b21d0ded-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/ccf3e820b21d0ded-1420.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/ccf3e820b21d0ded-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/ccf3e820b21d0ded-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/ccf3e820b21d0ded-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/e156bf46ff9904e3-1200.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/e156bf46ff9904e3-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/e156bf46ff9904e3-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/e156bf46ff9904e3-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/e68935fd0b33a39b-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/e68935fd0b33a39b-1760.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/e68935fd0b33a39b-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/e68935fd0b33a39b-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/e68935fd0b33a39b-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/e848991e7eb9d0b0-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/e848991e7eb9d0b0-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/e848991e7eb9d0b0-711.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/f03e702faeb36387-1280.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/f03e702faeb36387-1420.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/f03e702faeb36387-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/f03e702faeb36387-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/f03e702faeb36387-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/f4c18bbcb5d9e615-240.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/f4c18bbcb5d9e615-480.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/optimized/f4c18bbcb5d9e615-720.webp",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/singh-academy-logo-clean.png",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/public/singh-academy-logo.png",
+      "unchanged": true
+    }
+  ]
+}

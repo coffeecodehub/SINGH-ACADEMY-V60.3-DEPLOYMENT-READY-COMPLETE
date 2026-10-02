@@ -1,0 +1,61 @@
+{
+  "name": "singh-academy-backend",
+  "version": "60.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "seed:courses": "node src/scripts/seedCourses.js",
+    "seed:data": "node src/scripts/seedData.js",
+    "seed:admins": "node src/scripts/seedAdmins.js",
+    "test": "node --test test/*.test.js",
+    "setup": "node src/scripts/setupLocal.js",
+    "migrate:v45": "node src/scripts/migrateV45.js",
+    "admin:recover": "node src/scripts/recoverAdmin.js",
+    "preflight": "node src/scripts/preflight.js",
+    "migrate:v46": "node src/scripts/migrateV46.js",
+    "test:integration": "node --test integration/*.test.js",
+    "mail:verify": "node src/scripts/checkMail.js",
+    "media:audit": "node src/scripts/auditMedia.js",
+    "migrate:v47": "node src/scripts/migrateV47.js",
+    "certificates:backfill": "node src/scripts/backfillCompletions.js",
+    "test:images": "node src/scripts/checkImages.js",
+    "test:certificate": "node src/scripts/sampleCertificate.js",
+    "migrate:v48": "node src/scripts/migrateV48.js",
+    "migrate:v50": "node src/scripts/migrateV50.js",
+    "notifications:run": "node src/scripts/runStudentNotifications.js",
+    "migrate:v51": "node src/scripts/migrateV51.js",
+    "migrate:v52": "node src/scripts/migrateV52.js",
+    "migrate:v53": "node src/scripts/migrateV53.js",
+    "migrate:v54": "node src/scripts/migrateV54.js",
+    "migrate:v55": "node src/scripts/migrateV55.js",
+    "migrate:v56": "node src/scripts/migrateV56.js",
+    "payments:check": "node src/scripts/checkPayments.js",
+    "payments:reconcile": "node src/scripts/reconcilePayments.js",
+    "migrate:v57": "node src/scripts/migrateV57.js",
+    "migrate:v58": "node src/scripts/migrateV58.js",
+    "migrate:v59": "node src/scripts/migrateV59.js",
+    "migrate:v60": "node src/scripts/migrateV60.js",
+    "migrate:v60.3": "node src/scripts/migrateV603.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "5.2.1",
+    "mongodb": "^7.7.0",
+    "mongoose": "^8.18.0",
+    "multer": "2.4.0",
+    "nodemailer": "10.0.10",
+    "sharp": "0.35.4",
+    "stripe": "22.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}

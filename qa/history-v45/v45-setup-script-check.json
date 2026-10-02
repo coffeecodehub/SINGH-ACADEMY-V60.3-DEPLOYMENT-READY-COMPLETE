@@ -1,0 +1,13 @@
+{
+  "scope": "Dependency-free script in temporary directory; not the user environment or a database.",
+  "passed": 7,
+  "checks": {
+    "generates strong AUTH_SECRET": true,
+    "generates separate 64-hex MFA key": true,
+    "does not print generated secrets": true,
+    "admin passwords distinct": true,
+    "secure defaults enabled": true,
+    "rerun preserves existing URI and credentials": true,
+    "changed existing file backed up": true
+  }
+}

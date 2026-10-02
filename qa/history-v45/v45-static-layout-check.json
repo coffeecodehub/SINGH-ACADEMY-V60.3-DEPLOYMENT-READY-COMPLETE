@@ -1,0 +1,40 @@
+{
+  "scope": "Chromium static HTML fixture using delivered styles. Not a running Next/React application or functional browser test.",
+  "results": [
+    {
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "tableContained": true,
+      "passedNoHorizontalPageOverflow": true
+    },
+    {
+      "viewport": 1024,
+      "documentWidth": 1024,
+      "bodyWidth": 1024,
+      "tableContained": true,
+      "passedNoHorizontalPageOverflow": true
+    },
+    {
+      "viewport": 768,
+      "documentWidth": 768,
+      "bodyWidth": 768,
+      "tableContained": true,
+      "passedNoHorizontalPageOverflow": true
+    },
+    {
+      "viewport": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "tableContained": true,
+      "passedNoHorizontalPageOverflow": true
+    },
+    {
+      "viewport": 360,
+      "documentWidth": 360,
+      "bodyWidth": 360,
+      "tableContained": true,
+      "passedNoHorizontalPageOverflow": true
+    }
+  ]
+}

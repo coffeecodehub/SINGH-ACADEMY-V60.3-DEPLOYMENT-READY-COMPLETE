@@ -1,0 +1,5 @@
+
+> singh-academy@53.0.0 check:ui
+> node scripts/check-preserved-ui.mjs
+
+252 protected V48 public files checked; 0 unexpected differences. V53 keeps the approved public baseline; only explicitly requested logo/landing/contact/mobile-header files remain outside this protected manifest.

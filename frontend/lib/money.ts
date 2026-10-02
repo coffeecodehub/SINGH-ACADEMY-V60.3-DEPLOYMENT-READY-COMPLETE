@@ -1,0 +1,3 @@
+/** Presentation only; checkout always re-reads the price on the server. */
+export function money(value:any,currency='USD'){const n=Number(value);if(value==null||!Number.isFinite(n))return 'Not available';try{return new Intl.NumberFormat('en-US',{style:'currency',currency,currencyDisplay:'symbol',minimumFractionDigits:n%1?2:0,maximumFractionDigits:2}).format(n);}catch{return `${currency} ${n.toFixed(2)}`;}}
+export function coursePrice(course:any){if(course.accessType==='free')return 'Free';if(course.accessType==='membership')return 'Academy membership';return money(course.pricing?.length?course.pricing[0].price:course.salePrice??course.price,course.currency||'USD');}

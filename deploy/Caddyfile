@@ -1,0 +1,19 @@
+{$DOMAIN} {
+ encode zstd gzip
+ header -Server
+ # No token-bearing URL, request-body or access log is enabled here.
+ @api path /api /api/*
+ handle @api {
+  request_body {
+   max_size 251MB
+  }
+  reverse_proxy backend:5000 {
+   transport http {
+    response_header_timeout 150s
+   }
+  }
+ }
+ handle {
+  reverse_proxy frontend:3000
+ }
+}

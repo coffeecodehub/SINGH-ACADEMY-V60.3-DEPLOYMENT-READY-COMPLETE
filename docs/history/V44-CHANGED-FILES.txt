@@ -1,0 +1,155 @@
+V44 change manifest
+Original archive: SINGH-ACADEMY-MONGODB-PRO-LMS-V43-ADMIN-CMS-FIXED(3).zip
+Original archive SHA-256: 9c7b040a0bba7694f890466fc643bbbd0045df09b77f5804597757238259cbba
+Note: hashes refer to individual file contents. This manifest does not list itself.
+
+ADDED .gitignore
+  V43: —
+  V44: 06505d505bd00e22932444a856440add8418af6a31c851f071ffae2ac4a3e6f7
+MODIFIED README.md
+  V43: f28e2f8f8186bfc7ee63952a9e0838f2eea5c8b6298cb65fc296a5c0d575d846
+  V44: 6bb67398e2100944697cce655d4a5bce87d619aa95cd1833cf7491dba3d71a90
+ADDED START-HERE-V44.md
+  V43: —
+  V44: 6bc60b6ee3fc562d900709b597e9171ebd9757ceac0e2e335e3f606c565ffec5
+ADDED THIRD_PARTY_NOTICES.md
+  V43: —
+  V44: ab60883f74f52b1569ffb955954c5148e48b4d6969ee7bfaa2c77583c9a8544b
+ADDED V44-PROJECT-ANALYSIS.md
+  V43: —
+  V44: 3ae7d2308fc832e796198052fb3413ce088863cf9877df00071053d7cc3deec8
+MODIFIED backend/.env.example
+  V43: 6c489dc8b4c4624c43f4d29b0fd137ecb8031d0b7c6a5cdbd0fe79e317ee080f
+  V44: a41d017b86469c6265a72c0fc2e7b4c37a3dd06459955194be4463261167ab76
+MODIFIED backend/package.json
+  V43: 5a5b4aedabc9b1f4230df8cbee0d45e24cef0f3e1305b7d6412f5e00479abfb4
+  V44: d2c3af1b8819d594a486c928dc4d34605c39faab4233fc4346e306866c01210e
+MODIFIED backend/src/models/Lesson.js
+  V43: 472ab4383e4a2e244d3f771d20329b9abb79ca11a2d33aa018382c773a3da5aa
+  V44: 79e8a3ba6ff49cca311e11a9d6c5c5791afc4ed3fdcf979136bfd426ebe30c4d
+MODIFIED backend/src/routes/adminRoutes.js
+  V43: 26d42910024d1f73df9457a92996c03b331c54dc5d36c8ded391f7f1d2b9c399
+  V44: 5cda020c6e41178885c53accad8e6d1bfb58b883fdb730b6f0a5722c82da204a
+MODIFIED backend/src/routes/contentRoutes.js
+  V43: b5ca0bf385a3ed1e17d27043450bcef90b8f7d6b738bce6dc5d90691802cb5c4
+  V44: 6048e814c5563ba67adeb6e1e3f5127a228f3626a7da44ebfcc2fb981c2121fb
+MODIFIED backend/src/routes/courseRoutes.js
+  V43: b7e2718d84878cd270affce3c072909b27333394652fe12d0ec74d022e5c0d4a
+  V44: d7bc0f51eb76e86b258d6cb39156fbe3f292e862337acb5a04ac52159f53248c
+MODIFIED backend/src/routes/mediaRoutes.js
+  V43: fa12e991cf78ac37021ad8b4cbb15094c7b27d7952ee4915ce4ba4ff4f93722f
+  V44: 58c21f5c5a1ba6289735e3bdd80dce582df2a6123004b40e3d59ee21db3add72
+MODIFIED backend/src/routes/paymentRoutes.js
+  V43: 2a8d018f1b671a11345f8b5045d9de287eb9fef8e0c86929a2820e98bf4f9f59
+  V44: aa89f1658dcaf65e034d087c6aa4313bbedf0efffff455954a2760687a78a8fe
+MODIFIED backend/src/routes/testingRoutes.js
+  V43: d4f40e8bd23551b90c92560a8bfbe1947b47ffb3f10d3fe0b3c26461ae40fd35
+  V44: f0af78964167773be3972b5a8dc46f1e479fb283b818cf039701a85d9c4e2645
+MODIFIED backend/src/scripts/seedAdmins.js
+  V43: d68f98cc1b9ac8eb5b247a1b3581c9561e6f4b35a9c596d3a4014d666b1e1da8
+  V44: 6a98bd8e79476344bd001fb4b864d904c7f5955cd53a8f4f58804cb2f9d5b874
+MODIFIED backend/src/scripts/seedCourses.js
+  V43: 4c4d9edbcd340894098b329fc21261c3ee79a4ffc877f0318da55b9f1b9da595
+  V44: 7ef6a12af4e172e8a37500ed1790e1c8001f0cc54e2d42ee2017a21aa2b1377f
+MODIFIED backend/src/scripts/seedData.js
+  V43: 77406b6d22a98c6a19d46a339ec452b1455ef3924e985de72c5d36c21f805fee
+  V44: eeff4791fae02b9ce1e0c0e27fa0dcb7574098871c5f1655b5d0bdf98fd6fdb7
+MODIFIED backend/src/server.js
+  V43: 72ca03dfd2ca6c5e08ac09de102b5e0cef9a30b04a6a3162b097b614a93bdc95
+  V44: 95224001af24b9346637af4d7f0ee2b01eae445255d97585bd7899ff5386dcd5
+ADDED backend/src/utils/cmsValidation.js
+  V43: —
+  V44: 1f0eb322b37d21c3b93af0a0b4f5525004d5d5dd5449398f011f72939f30f251
+ADDED backend/src/utils/media.js
+  V43: —
+  V44: fe36002c99e5d1f11973662479a24e6536b0b7ab6fbb178a3962f8f2fed13b87
+ADDED backend/test/cms-handlers.test.js
+  V43: —
+  V44: fed516abd3932606ee4724ba06f6a871cee360988578cd42e820db9731dc1e6b
+ADDED backend/test/cms-validation.test.js
+  V43: —
+  V44: f5d707f351fad8672184e784b09dd061ad5be9b21fb1b67959a598411b957142
+MODIFIED frontend/README.md
+  V43: 72a40754ac33365d95320330a4f3e0ca99edba570e5737c267ed9deb32ae5c5e
+  V44: 2575a956548c37655fef387b3ae7bfae0da858c419bfdce50ee8434eef239fd5
+MODIFIED frontend/app/academy/page.tsx
+  V43: a3dc2679aaa3343b879920f3c62d2885453b10064a7b77a534e90b608b34757c
+  V44: 7d8958be1418184eb85f7ecd9e0e8c94c5abcb36fd66a0c2f8553aa39fb3abd3
+MODIFIED frontend/app/admin/admin.css
+  V43: 37259ce7d1d2a9b51517ba5250013b8fd23422ef1df0cfdc89d4fcbb70ef4514
+  V44: 582127ba59af62fa957318fc4cbbd4a3bef9673659bb5ff5afbe0a0d87563e9b
+MODIFIED frontend/app/admin/page.tsx
+  V43: 9be035f26efd46eed76ea92cbcde5dbee7d3b7609aec4dcc89ba0aface8ad713
+  V44: 067eaff12c3e5d5323905a10d30db9e2195edb5bedeefd3c472cc32e26aac429
+MODIFIED frontend/app/checkout/page.tsx
+  V43: 22127ad26168ed91fa1f1472f35c83f71da131ab6ec267a2be25943313b89798
+  V44: 5a00216d5e18baaaf6290efe23b9c1611190ca3e9c0a1ca232a2e46d496392d3
+MODIFIED frontend/app/events/page.tsx
+  V43: fd33a30991602bde782e9e82e89e670261ab6d58020e5bca4e41b02d1feff9fa
+  V44: c433039b5ca88eb7e27090f9c5b6bd51da0dd5acb3a8a8daa033155dca3c747f
+MODIFIED frontend/app/home/page.tsx
+  V43: fa3863c30dc2752b7d9fa562d5bf0140e379592534fd612890bdfd4b79edc583
+  V44: 12846cf5f53676f7fc57a09992f4b3174f09570d71890023d062a5414f47561f
+MODIFIED frontend/app/layout.tsx
+  V43: 31230ae6034dc601dbb039bc811b9ff04c844753dc87528f0da7d65bc1360711
+  V44: b344dfa7fd58f692cc259e1f87fb47634a95e3c3de2af009a950a0a36cb3edbc
+MODIFIED frontend/app/learn/[course]/page.tsx
+  V43: a8563c26b7eae822bb74b3bd809327acb0b363f6c522aff7560b8406e4faa591
+  V44: 3b8cc5648969b5d5d162f067f75d631a78e4cf5f64239b32fe0e03aa40cd0e24
+MODIFIED frontend/app/learn/[course]/player.css
+  V43: 5cd97a21e505660cabe5d98432057dc4c70f20bf589ee683f3ba2a5b5527c056
+  V44: 335772427a644b86474ca9142f482942b6b83d2c69528d1e797c8cbc12eb1d29
+MODIFIED frontend/app/page.tsx
+  V43: cb45a6635c847a284f134c9bd37c3616fe969802ae987864c3bf2a27f57f6cd5
+  V44: be44b3d4fb1ca102e1cc5b8f30284edcc83fd4f10317005c33212f2c52a81280
+MODIFIED frontend/app/super-admin/page.tsx
+  V43: 25489091b96ddffa43663f772633a60dcdbac9e823da6473ec4e2da47e438a8e
+  V44: 1fc66615c8178365f53f4570c8f39b75a4b00b0a4942fa9ff1fe2c87a19a6e5a
+ADDED frontend/components/cms/AdminPortal.tsx
+  V43: —
+  V44: ef24c30ea67fecf46e2a98c8b9e7fdd7aee4e2fa7c77a56c14e5bb8a90b2fb09
+ADDED frontend/components/cms/BusinessPanels.tsx
+  V43: —
+  V44: be41ec6a08f83c7a654e04de4432dda6f11c3180803d56d6c53347746c3360ab
+ADDED frontend/components/cms/ContentCollection.tsx
+  V43: —
+  V44: 6d1ce9611ce8bffe1ce1460602ff7784fc1016754c15141752dc36ebc77ce051
+ADDED frontend/components/cms/CourseEditor.tsx
+  V43: —
+  V44: a2d44d8a4597d83f4d7359ee16708d644d67dc37d4cc48e2d5cd76bc73dfee13
+ADDED frontend/components/cms/Fields.tsx
+  V43: —
+  V44: c3eb83a04e676c7c653fff21fa1fb8acd9ed5d32a93d9860ae4adbb25063b915
+ADDED frontend/components/cms/LessonEditor.tsx
+  V43: —
+  V44: 97546469b0aef2b66d5cb58a14a2f3289c3ed6fe46d2fb950f30e7ad6fef93bd
+ADDED frontend/components/cms/SiteEditor.tsx
+  V43: —
+  V44: 51126c191dc96beb95dc05877213248ed83f4974566ba445f7d6131903103885
+ADDED frontend/components/cms/socialIcons.ts
+  V43: —
+  V44: cf1278e2dd33612ea0f04a7bc8f38909ab03b1f1a18c690b3b0bbada0151a6bc
+MODIFIED frontend/components/layout/SiteFooter.tsx
+  V43: 2c4c12a474f4d1928ea37d9ea3ff6e8ed7ed2ce5dc81a2a19c1ef7c4d7d4a51e
+  V44: d19f5395bdb001921d13fcc8e3036c715efd6410e40f7c38eba154f4a2ccd65b
+MODIFIED frontend/package.json
+  V43: a6e52db73076c15878c55117828e445b476e37837a4bce30ff28d7cdfa5eba7d
+  V44: 5ebb9c38ad2b98bf1e5df43d41bcdcf99923da81baec6ce27a983224370f6fcc
+ADDED qa/build-attempt.txt
+  V43: —
+  V44: 608d9cbf8b2064435eb32cc35d72da7e1726946da00d0ad27f40b33b9c162a1d
+ADDED qa/dependency-install-attempt.txt
+  V43: —
+  V44: ef9d2822b50438388ba9bc7fd5926baa3d5b070aecefaa13258a0e8dd682ad8f
+ADDED qa/source-check.txt
+  V43: —
+  V44: 7321d68f19f3aefdfe80eeed73b94eeaad0b99eb0396ccda8b555176eb31e4c0
+ADDED qa/unit-tests.tap
+  V43: —
+  V44: ebfa458155682e20d794e5b918750766812301b340f5ba273e0b3fc7f5c8a510
+ADDED scripts/check-source.cjs
+  V43: —
+  V44: 8369757eeb68670a4837be90531fa704d78114c17d563d6aa1823f9e9b3861a7
+REMOVED frontend/tsconfig.tsbuildinfo
+  V43: cf9931fbc0c1de880c6c477aef1a7beb85b5686bc148dff6d7bd93844db2e7ec
+  V44: —

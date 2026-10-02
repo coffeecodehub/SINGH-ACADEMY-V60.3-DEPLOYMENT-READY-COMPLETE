@@ -1,0 +1,1639 @@
+[
+  {
+    "file": "frontend/app/page.tsx",
+    "before": "6e83f81f71dfc25b9ff9f13645d7dec395d880f7ea13dc7fc9776ac73abab31b",
+    "after": "75d3669ae2ed5fba0be499da69f7c52b8d4d659f0e9838a79dfb023aa655b2f5",
+    "edits": [
+      {
+        "start": 13,
+        "end": 13,
+        "old": "",
+        "value": "\nimport {useWebsiteContent,websiteText} from \"../components/WebsiteContent\";\n"
+      },
+      {
+        "start": 508,
+        "end": 508,
+        "old": "",
+        "value": "const website=useWebsiteContent();"
+      },
+      {
+        "start": 1814,
+        "end": 1854,
+        "old": "EXECUTIVE EDUCATION • GLOBAL PERSPECTIVE",
+        "value": "{websiteText(website,\"landing-001\",\"EXECUTIVE EDUCATION • GLOBAL PERSPECTIVE\")}"
+      },
+      {
+        "start": 1864,
+        "end": 1882,
+        "old": "Master the art of ",
+        "value": "{websiteText(website,\"landing-002\",\"Master the art of \")}"
+      },
+      {
+        "start": 1886,
+        "end": 1897,
+        "old": "resolution.",
+        "value": "{websiteText(website,\"landing-003\",\"resolution.\")}"
+      },
+      {
+        "start": 1910,
+        "end": 2063,
+        "old": "Transform conflict into connection and negotiation into opportunity through practical training in mediation, leadership and cross-cultural communication.",
+        "value": "{websiteText(website,\"landing-004\",\"Transform conflict into connection and negotiation into opportunity through practical training in mediation, leadership and cross-cultural communication.\")}"
+      },
+      {
+        "start": 2134,
+        "end": 2151,
+        "old": "Explore Courses →",
+        "value": "{websiteText(website,\"landing-005\",\"Explore Courses →\")}"
+      },
+      {
+        "start": 2195,
+        "end": 2223,
+        "old": "Discover Full Academy Access",
+        "value": "{websiteText(website,\"landing-006\",\"Discover Full Academy Access\")}"
+      },
+      {
+        "start": 2439,
+        "end": 2490,
+        "old": "\"Professionals learning negotiation and leadership\"",
+        "value": "{websiteText(website,\"landing-007\",\"Professionals learning negotiation and leadership\")}"
+      },
+      {
+        "start": 2528,
+        "end": 2553,
+        "old": "Practical. Global. Human.",
+        "value": "{websiteText(website,\"landing-008\",\"Practical. Global. Human.\")}"
+      },
+      {
+        "start": 2563,
+        "end": 2599,
+        "old": "Negotiation • Mediation • Leadership",
+        "value": "{websiteText(website,\"landing-009\",\"Negotiation • Mediation • Leadership\")}"
+      },
+      {
+        "start": 2676,
+        "end": 2692,
+        "old": "Learners trained",
+        "value": "{websiteText(website,\"landing-011\",\"Learners trained\")}"
+      },
+      {
+        "start": 2736,
+        "end": 2753,
+        "old": "Countries reached",
+        "value": "{websiteText(website,\"landing-013\",\"Countries reached\")}"
+      },
+      {
+        "start": 2797,
+        "end": 2816,
+        "old": "Years of experience",
+        "value": "{websiteText(website,\"landing-015\",\"Years of experience\")}"
+      },
+      {
+        "start": 2947,
+        "end": 2961,
+        "old": "THE CURRICULUM",
+        "value": "{websiteText(website,\"landing-016\",\"THE CURRICULUM\")}"
+      },
+      {
+        "start": 2972,
+        "end": 3009,
+        "old": "Skills for conversations that matter.",
+        "value": "{websiteText(website,\"landing-017\",\"Skills for conversations that matter.\")}"
+      },
+      {
+        "start": 3023,
+        "end": 3121,
+        "old": "Focused programs designed for professionals who negotiate, lead, communicate and resolve conflict.",
+        "value": "{websiteText(website,\"landing-018\",\"Focused programs designed for professionals who negotiate, lead, communicate and resolve conflict.\")}"
+      },
+      {
+        "start": 3200,
+        "end": 3226,
+        "old": "Loading published courses…",
+        "value": "{websiteText(website,\"landing-019\",\"Loading published courses…\")}"
+      },
+      {
+        "start": 4008,
+        "end": 4017,
+        "old": "Explore →",
+        "value": "{websiteText(website,\"landing-020\",\"Explore →\")}"
+      },
+      {
+        "start": 4070,
+        "end": 4095,
+        "old": "No published courses yet.",
+        "value": "{websiteText(website,\"landing-021\",\"No published courses yet.\")}"
+      },
+      {
+        "start": 4102,
+        "end": 4177,
+        "old": "Courses published from the admin Course CMS will automatically appear here.",
+        "value": "{websiteText(website,\"landing-022\",\"Courses published from the admin Course CMS will automatically appear here.\")}"
+      },
+      {
+        "start": 4276,
+        "end": 4297,
+        "old": "Explore All Courses →",
+        "value": "{websiteText(website,\"landing-023\",\"Explore All Courses →\")}"
+      },
+      {
+        "start": 4419,
+        "end": 4447,
+        "old": "THE SINGH ACADEMY EXPERIENCE",
+        "value": "{websiteText(website,\"landing-024\",\"THE SINGH ACADEMY EXPERIENCE\")}"
+      },
+      {
+        "start": 4458,
+        "end": 4512,
+        "old": "Professional learning built around real conversations.",
+        "value": "{websiteText(website,\"landing-025\",\"Professional learning built around real conversations.\")}"
+      },
+      {
+        "start": 4526,
+        "end": 4686,
+        "old": "Singh Academy brings together mediation, negotiation, public speaking and cross-cultural fluency in a practical learning environment designed for professionals.",
+        "value": "{websiteText(website,\"landing-026\",\"Singh Academy brings together mediation, negotiation, public speaking and cross-cultural fluency in a practical learning environment designed for professionals.\")}"
+      },
+      {
+        "start": 4799,
+        "end": 4823,
+        "old": "\"Singh Academy workshop\"",
+        "value": "{websiteText(website,\"landing-027\",\"Singh Academy workshop\")}"
+      },
+      {
+        "start": 4855,
+        "end": 4863,
+        "old": "PRACTICE",
+        "value": "{websiteText(website,\"landing-028\",\"PRACTICE\")}"
+      },
+      {
+        "start": 4874,
+        "end": 4932,
+        "old": "Learn through scenarios, reflection and applied exercises.",
+        "value": "{websiteText(website,\"landing-029\",\"Learn through scenarios, reflection and applied exercises.\")}"
+      },
+      {
+        "start": 4940,
+        "end": 5051,
+        "old": "Move beyond passive watching with structured activities that connect each idea to real professional situations.",
+        "value": "{websiteText(website,\"landing-030\",\"Move beyond passive watching with structured activities that connect each idea to real professional situations.\")}"
+      },
+      {
+        "start": 5134,
+        "end": 5158,
+        "old": "\"Singh Academy learning\"",
+        "value": "{websiteText(website,\"landing-031\",\"Singh Academy learning\")}"
+      },
+      {
+        "start": 5190,
+        "end": 5208,
+        "old": "GLOBAL PERSPECTIVE",
+        "value": "{websiteText(website,\"landing-032\",\"GLOBAL PERSPECTIVE\")}"
+      },
+      {
+        "start": 5219,
+        "end": 5284,
+        "old": "Understand people, culture and conflict from more than one angle.",
+        "value": "{websiteText(website,\"landing-033\",\"Understand people, culture and conflict from more than one angle.\")}"
+      },
+      {
+        "start": 5292,
+        "end": 5388,
+        "old": "Explore international perspectives from faculty, mediators, judges, academics and practitioners.",
+        "value": "{websiteText(website,\"landing-034\",\"Explore international perspectives from faculty, mediators, judges, academics and practitioners.\")}"
+      },
+      {
+        "start": 5478,
+        "end": 5506,
+        "old": "\"Dr. Singh at Singh Academy\"",
+        "value": "{websiteText(website,\"landing-035\",\"Dr. Singh at Singh Academy\")}"
+      },
+      {
+        "start": 5538,
+        "end": 5546,
+        "old": "GUIDANCE",
+        "value": "{websiteText(website,\"landing-036\",\"GUIDANCE\")}"
+      },
+      {
+        "start": 5557,
+        "end": 5606,
+        "old": "Build a learning path that grows with your goals.",
+        "value": "{websiteText(website,\"landing-037\",\"Build a learning path that grows with your goals.\")}"
+      },
+      {
+        "start": 5614,
+        "end": 5718,
+        "old": "Choose an individual course or use an Academy membership to access the broader published course library.",
+        "value": "{websiteText(website,\"landing-038\",\"Choose an individual course or use an Academy membership to access the broader published course library.\")}"
+      },
+      {
+        "start": 5826,
+        "end": 5837,
+        "old": "OUR MISSION",
+        "value": "{websiteText(website,\"landing-039\",\"OUR MISSION\")}"
+      },
+      {
+        "start": 5848,
+        "end": 5966,
+        "old": "“To empower every individual with the skills to transform conflict into connection, and negotiation into opportunity.”",
+        "value": "{websiteText(website,\"landing-040\",\"“To empower every individual with the skills to transform conflict into connection, and negotiation into opportunity.”\")}"
+      },
+      {
+        "start": 6077,
+        "end": 6102,
+        "old": "\"Dr. Sukhsimranjit Singh\"",
+        "value": "{websiteText(website,\"landing-041\",\"Dr. Sukhsimranjit Singh\")}"
+      },
+      {
+        "start": 6107,
+        "end": 6149,
+        "old": "— Dr. Sukhsimranjit Singh, founding vision",
+        "value": "{websiteText(website,\"landing-042\",\"— Dr. Sukhsimranjit Singh, founding vision\")}"
+      },
+      {
+        "start": 6156,
+        "end": 6256,
+        "old": "Singh Academy combines academic rigor with practical, globally informed dispute-resolution training.",
+        "value": "{websiteText(website,\"landing-043\",\"Singh Academy combines academic rigor with practical, globally informed dispute-resolution training.\")}"
+      },
+      {
+        "start": 6304,
+        "end": 6320,
+        "old": "Meet Dr. Singh →",
+        "value": "{websiteText(website,\"landing-044\",\"Meet Dr. Singh →\")}"
+      },
+      {
+        "start": 6442,
+        "end": 6456,
+        "old": "GLOBAL FACULTY",
+        "value": "{websiteText(website,\"landing-045\",\"GLOBAL FACULTY\")}"
+      },
+      {
+        "start": 6467,
+        "end": 6504,
+        "old": "Learn from experienced practitioners.",
+        "value": "{websiteText(website,\"landing-046\",\"Learn from experienced practitioners.\")}"
+      },
+      {
+        "start": 6518,
+        "end": 6622,
+        "old": "Perspectives from mediators, judges, academics and leaders help connect theory with real-world practice.",
+        "value": "{websiteText(website,\"landing-047\",\"Perspectives from mediators, judges, academics and leaders help connect theory with real-world practice.\")}"
+      },
+      {
+        "start": 6967,
+        "end": 6981,
+        "old": "View profile →",
+        "value": "{websiteText(website,\"landing-048\",\"View profile →\")}"
+      },
+      {
+        "start": 7371,
+        "end": 7385,
+        "old": "View profile →",
+        "value": "{websiteText(website,\"landing-049\",\"View profile →\")}"
+      },
+      {
+        "start": 7455,
+        "end": 7549,
+        "old": "13 experts. One academy. Judges, mediators, academics and practitioners from around the world.",
+        "value": "{websiteText(website,\"landing-050\",\"13 experts. One academy. Judges, mediators, academics and practitioners from around the world.\")}"
+      },
+      {
+        "start": 7593,
+        "end": 7611,
+        "old": "Meet all faculty →",
+        "value": "{websiteText(website,\"landing-051\",\"Meet all faculty →\")}"
+      },
+      {
+        "start": 7942,
+        "end": 7954,
+        "old": "TEAM PROFILE",
+        "value": "{websiteText(website,\"landing-053\",\"TEAM PROFILE\")}"
+      },
+      {
+        "start": 8072,
+        "end": 8094,
+        "old": "Full faculty profile →",
+        "value": "{websiteText(website,\"landing-054\",\"Full faculty profile →\")}"
+      },
+      {
+        "start": 8214,
+        "end": 8229,
+        "old": "LEARNER STORIES",
+        "value": "{websiteText(website,\"landing-055\",\"LEARNER STORIES\")}"
+      },
+      {
+        "start": 8240,
+        "end": 8268,
+        "old": "Built for real-world impact.",
+        "value": "{websiteText(website,\"landing-056\",\"Built for real-world impact.\")}"
+      },
+      {
+        "start": 8663,
+        "end": 8696,
+        "old": "Learner reviews will appear here.",
+        "value": "{websiteText(website,\"landing-060\",\"Learner reviews will appear here.\")}"
+      },
+      {
+        "start": 8703,
+        "end": 8766,
+        "old": "Published learner feedback is loaded directly from the academy.",
+        "value": "{websiteText(website,\"landing-061\",\"Published learner feedback is loaded directly from the academy.\")}"
+      },
+      {
+        "start": 8865,
+        "end": 8886,
+        "old": "Explore All Reviews →",
+        "value": "{websiteText(website,\"landing-062\",\"Explore All Reviews →\")}"
+      },
+      {
+        "start": 9009,
+        "end": 9034,
+        "old": "SINGH ACADEMY IN PRACTICE",
+        "value": "{websiteText(website,\"landing-063\",\"SINGH ACADEMY IN PRACTICE\")}"
+      },
+      {
+        "start": 9045,
+        "end": 9104,
+        "old": "Learning shaped by people, practice and global perspective.",
+        "value": "{websiteText(website,\"landing-064\",\"Learning shaped by people, practice and global perspective.\")}"
+      },
+      {
+        "start": 9118,
+        "end": 9221,
+        "old": "Workshops, professional communities and international conversations are part of the academy experience.",
+        "value": "{websiteText(website,\"landing-065\",\"Workshops, professional communities and international conversations are part of the academy experience.\")}"
+      },
+      {
+        "start": 9325,
+        "end": 9349,
+        "old": "\"Singh Academy workshop\"",
+        "value": "{websiteText(website,\"landing-066\",\"Singh Academy workshop\")}"
+      },
+      {
+        "start": 9412,
+        "end": 9443,
+        "old": "\"Global professional community\"",
+        "value": "{websiteText(website,\"landing-067\",\"Global professional community\")}"
+      },
+      {
+        "start": 9505,
+        "end": 9541,
+        "old": "\"Professional workshop participants\"",
+        "value": "{websiteText(website,\"landing-068\",\"Professional workshop participants\")}"
+      },
+      {
+        "start": 9746,
+        "end": 9763,
+        "old": "WHY SINGH ACADEMY",
+        "value": "{websiteText(website,\"landing-069\",\"WHY SINGH ACADEMY\")}"
+      },
+      {
+        "start": 9774,
+        "end": 9832,
+        "old": "Executive learning designed to move from theory to action.",
+        "value": "{websiteText(website,\"landing-070\",\"Executive learning designed to move from theory to action.\")}"
+      },
+      {
+        "start": 9846,
+        "end": 9973,
+        "old": "A focused learning experience for professionals navigating negotiation, mediation, leadership and cross-cultural communication.",
+        "value": "{websiteText(website,\"landing-071\",\"A focused learning experience for professionals navigating negotiation, mediation, leadership and cross-cultural communication.\")}"
+      },
+      {
+        "start": 10028,
+        "end": 10053,
+        "old": "'Practice-first learning'",
+        "value": "websiteText(website,\"landing-072\",\"Practice-first learning\")"
+      },
+      {
+        "start": 10054,
+        "end": 10140,
+        "old": "'Frameworks, scenarios and exercises built around difficult real-world conversations.'",
+        "value": "websiteText(website,\"landing-073\",\"Frameworks, scenarios and exercises built around difficult real-world conversations.\")"
+      },
+      {
+        "start": 10148,
+        "end": 10168,
+        "old": "'Global perspective'",
+        "value": "websiteText(website,\"landing-074\",\"Global perspective\")"
+      },
+      {
+        "start": 10169,
+        "end": 10240,
+        "old": "'Learn across cultures, professions and dispute-resolution traditions.'",
+        "value": "websiteText(website,\"landing-075\",\"Learn across cultures, professions and dispute-resolution traditions.\")"
+      },
+      {
+        "start": 10248,
+        "end": 10272,
+        "old": "'Expert-led instruction'",
+        "value": "websiteText(website,\"landing-076\",\"Expert-led instruction\")"
+      },
+      {
+        "start": 10273,
+        "end": 10348,
+        "old": "'Insights from mediators, judges, academics and experienced practitioners.'",
+        "value": "websiteText(website,\"landing-077\",\"Insights from mediators, judges, academics and experienced practitioners.\")"
+      },
+      {
+        "start": 10356,
+        "end": 10376,
+        "old": "'Learn at your pace'",
+        "value": "websiteText(website,\"landing-078\",\"Learn at your pace\")"
+      },
+      {
+        "start": 10377,
+        "end": 10455,
+        "old": "'Structured course access with progress tracking, resources and certificates.'",
+        "value": "websiteText(website,\"landing-079\",\"Structured course access with progress tracking, resources and certificates.\")"
+      },
+      {
+        "start": 10763,
+        "end": 10784,
+        "old": "YOUR LEARNING JOURNEY",
+        "value": "{websiteText(website,\"landing-080\",\"YOUR LEARNING JOURNEY\")}"
+      },
+      {
+        "start": 10795,
+        "end": 10835,
+        "old": "From first lesson to confident practice.",
+        "value": "{websiteText(website,\"landing-081\",\"From first lesson to confident practice.\")}"
+      },
+      {
+        "start": 10843,
+        "end": 10965,
+        "old": "Choose a focused course or full Academy access, learn through structured modules, apply the ideas and track your progress.",
+        "value": "{websiteText(website,\"landing-082\",\"Choose a focused course or full Academy access, learn through structured modules, apply the ideas and track your progress.\")}"
+      },
+      {
+        "start": 11021,
+        "end": 11029,
+        "old": "'Choose'",
+        "value": "websiteText(website,\"landing-083\",\"Choose\")"
+      },
+      {
+        "start": 11030,
+        "end": 11070,
+        "old": "'Select a course or Academy membership.'",
+        "value": "websiteText(website,\"landing-084\",\"Select a course or Academy membership.\")"
+      },
+      {
+        "start": 11078,
+        "end": 11085,
+        "old": "'Learn'",
+        "value": "websiteText(website,\"landing-085\",\"Learn\")"
+      },
+      {
+        "start": 11086,
+        "end": 11134,
+        "old": "'Watch lessons and explore practical resources.'",
+        "value": "websiteText(website,\"landing-086\",\"Watch lessons and explore practical resources.\")"
+      },
+      {
+        "start": 11142,
+        "end": 11152,
+        "old": "'Practice'",
+        "value": "websiteText(website,\"landing-087\",\"Practice\")"
+      },
+      {
+        "start": 11153,
+        "end": 11206,
+        "old": "'Complete exercises, quizzes and applied activities.'",
+        "value": "websiteText(website,\"landing-088\",\"Complete exercises, quizzes and applied activities.\")"
+      },
+      {
+        "start": 11214,
+        "end": 11224,
+        "old": "'Progress'",
+        "value": "websiteText(website,\"landing-089\",\"Progress\")"
+      },
+      {
+        "start": 11225,
+        "end": 11273,
+        "old": "'Resume anytime and see your learning progress.'",
+        "value": "websiteText(website,\"landing-090\",\"Resume anytime and see your learning progress.\")"
+      },
+      {
+        "start": 11281,
+        "end": 11291,
+        "old": "'Complete'",
+        "value": "websiteText(website,\"landing-091\",\"Complete\")"
+      },
+      {
+        "start": 11292,
+        "end": 11339,
+        "old": "'Finish the program and earn your certificate.'",
+        "value": "websiteText(website,\"landing-092\",\"Finish the program and earn your certificate.\")"
+      },
+      {
+        "start": 11609,
+        "end": 11626,
+        "old": "COURSE COMPLETION",
+        "value": "{websiteText(website,\"landing-093\",\"COURSE COMPLETION\")}"
+      },
+      {
+        "start": 11637,
+        "end": 11689,
+        "old": "Celebrate progress with a Singh Academy certificate.",
+        "value": "{websiteText(website,\"landing-094\",\"Celebrate progress with a Singh Academy certificate.\")}"
+      },
+      {
+        "start": 11697,
+        "end": 11780,
+        "old": "Complete eligible programs and keep a professional record of your learning journey.",
+        "value": "{websiteText(website,\"landing-095\",\"Complete eligible programs and keep a professional record of your learning journey.\")}"
+      },
+      {
+        "start": 11824,
+        "end": 11853,
+        "old": "Explore certificate courses →",
+        "value": "{websiteText(website,\"landing-096\",\"Explore certificate courses →\")}"
+      },
+      {
+        "start": 11953,
+        "end": 11968,
+        "old": "\"Singh Academy\"",
+        "value": "{websiteText(website,\"landing-097\",\"Singh Academy\")}"
+      },
+      {
+        "start": 11976,
+        "end": 12001,
+        "old": "CERTIFICATE OF COMPLETION",
+        "value": "{websiteText(website,\"landing-098\",\"CERTIFICATE OF COMPLETION\")}"
+      },
+      {
+        "start": 12016,
+        "end": 12029,
+        "old": "Singh Academy",
+        "value": "{websiteText(website,\"landing-099\",\"Singh Academy\")}"
+      },
+      {
+        "start": 12041,
+        "end": 12070,
+        "old": "Professional Learning Program",
+        "value": "{websiteText(website,\"landing-100\",\"Professional Learning Program\")}"
+      },
+      {
+        "start": 12179,
+        "end": 12204,
+        "old": "BEYOND ON-DEMAND LEARNING",
+        "value": "{websiteText(website,\"landing-101\",\"BEYOND ON-DEMAND LEARNING\")}"
+      },
+      {
+        "start": 12215,
+        "end": 12252,
+        "old": "Stay connected through live learning.",
+        "value": "{websiteText(website,\"landing-102\",\"Stay connected through live learning.\")}"
+      },
+      {
+        "start": 12260,
+        "end": 12380,
+        "old": "Bring the Academy experience to life with events, discussions and resources that extend learning beyond a single course.",
+        "value": "{websiteText(website,\"landing-103\",\"Bring the Academy experience to life with events, discussions and resources that extend learning beyond a single course.\")}"
+      },
+      {
+        "start": 12429,
+        "end": 12446,
+        "old": "Upcoming Events →",
+        "value": "{websiteText(website,\"landing-104\",\"Upcoming Events →\")}"
+      },
+      {
+        "start": 12650,
+        "end": 12662,
+        "old": "EXPLORE MORE",
+        "value": "{websiteText(website,\"landing-105\",\"EXPLORE MORE\")}"
+      },
+      {
+        "start": 12673,
+        "end": 12718,
+        "old": "Ideas and resources for better conversations.",
+        "value": "{websiteText(website,\"landing-106\",\"Ideas and resources for better conversations.\")}"
+      },
+      {
+        "start": 12732,
+        "end": 12826,
+        "old": "Continue learning through events, practical resources and insights from the Academy community.",
+        "value": "{websiteText(website,\"landing-107\",\"Continue learning through events, practical resources and insights from the Academy community.\")}"
+      },
+      {
+        "start": 12936,
+        "end": 12942,
+        "old": "EVENTS",
+        "value": "{websiteText(website,\"landing-108\",\"EVENTS\")}"
+      },
+      {
+        "start": 12953,
+        "end": 12991,
+        "old": "Learn live with the Academy community.",
+        "value": "{websiteText(website,\"landing-109\",\"Learn live with the Academy community.\")}"
+      },
+      {
+        "start": 12999,
+        "end": 13067,
+        "old": "Explore upcoming conversations, sessions and learning opportunities.",
+        "value": "{websiteText(website,\"landing-110\",\"Explore upcoming conversations, sessions and learning opportunities.\")}"
+      },
+      {
+        "start": 13074,
+        "end": 13087,
+        "old": "View events →",
+        "value": "{websiteText(website,\"landing-111\",\"View events →\")}"
+      },
+      {
+        "start": 13165,
+        "end": 13181,
+        "old": "FROM THE FOUNDER",
+        "value": "{websiteText(website,\"landing-112\",\"FROM THE FOUNDER\")}"
+      },
+      {
+        "start": 13192,
+        "end": 13238,
+        "old": "Cross-cultural thinking for a connected world.",
+        "value": "{websiteText(website,\"landing-113\",\"Cross-cultural thinking for a connected world.\")}"
+      },
+      {
+        "start": 13246,
+        "end": 13309,
+        "old": "Explore Dr. Singh’s ideas, publications and upcoming book work.",
+        "value": "{websiteText(website,\"landing-114\",\"Explore Dr. Singh’s ideas, publications and upcoming book work.\")}"
+      },
+      {
+        "start": 13316,
+        "end": 13331,
+        "old": "Discover more →",
+        "value": "{websiteText(website,\"landing-115\",\"Discover more →\")}"
+      },
+      {
+        "start": 13436,
+        "end": 13456,
+        "old": "SINGH ACADEMY ACCESS",
+        "value": "{websiteText(website,\"landing-116\",\"SINGH ACADEMY ACCESS\")}"
+      },
+      {
+        "start": 13467,
+        "end": 13510,
+        "old": "Learn one skill—or unlock the full academy.",
+        "value": "{websiteText(website,\"landing-117\",\"Learn one skill—or unlock the full academy.\")}"
+      },
+      {
+        "start": 13558,
+        "end": 13568,
+        "old": "INDIVIDUAL",
+        "value": "{websiteText(website,\"landing-118\",\"INDIVIDUAL\")}"
+      },
+      {
+        "start": 13579,
+        "end": 13594,
+        "old": "Choose a Course",
+        "value": "{websiteText(website,\"landing-119\",\"Choose a Course\")}"
+      },
+      {
+        "start": 13602,
+        "end": 13660,
+        "old": "Focused access to the program that fits your current goal.",
+        "value": "{websiteText(website,\"landing-120\",\"Focused access to the program that fits your current goal.\")}"
+      },
+      {
+        "start": 13711,
+        "end": 13725,
+        "old": "Browse courses",
+        "value": "{websiteText(website,\"landing-121\",\"Browse courses\")}"
+      },
+      {
+        "start": 13775,
+        "end": 13787,
+        "old": "FULL ACADEMY",
+        "value": "{websiteText(website,\"landing-122\",\"FULL ACADEMY\")}"
+      },
+      {
+        "start": 13798,
+        "end": 13813,
+        "old": "Complete Access",
+        "value": "{websiteText(website,\"landing-123\",\"Complete Access\")}"
+      },
+      {
+        "start": 13821,
+        "end": 13906,
+        "old": "Access the complete learning library, new content and the broader academy experience.",
+        "value": "{websiteText(website,\"landing-124\",\"Access the complete learning library, new content and the broader academy experience.\")}"
+      },
+      {
+        "start": 13948,
+        "end": 13965,
+        "old": "View membership →",
+        "value": "{websiteText(website,\"landing-125\",\"View membership →\")}"
+      },
+      {
+        "start": 14177,
+        "end": 14203,
+        "old": "FREQUENTLY ASKED QUESTIONS",
+        "value": "{websiteText(website,\"landing-126\",\"FREQUENTLY ASKED QUESTIONS\")}"
+      },
+      {
+        "start": 14214,
+        "end": 14251,
+        "old": "Everything you need before you begin.",
+        "value": "{websiteText(website,\"landing-127\",\"Everything you need before you begin.\")}"
+      },
+      {
+        "start": 14259,
+        "end": 14327,
+        "old": "These answers can later be managed from the website CMS/admin panel.",
+        "value": "{websiteText(website,\"landing-128\",\"These answers can later be managed from the website CMS/admin panel.\")}"
+      },
+      {
+        "start": 14373,
+        "end": 14406,
+        "old": "'Can I purchase only one course?'",
+        "value": "websiteText(website,\"landing-129\",\"Can I purchase only one course?\")"
+      },
+      {
+        "start": 14407,
+        "end": 14525,
+        "old": "'Yes. Individual courses can be offered separately, while Academy membership can unlock the broader learning library.'",
+        "value": "websiteText(website,\"landing-130\",\"Yes. Individual courses can be offered separately, while Academy membership can unlock the broader learning library.\")"
+      },
+      {
+        "start": 14528,
+        "end": 14558,
+        "old": "'How long will I have access?'",
+        "value": "websiteText(website,\"landing-131\",\"How long will I have access?\")"
+      },
+      {
+        "start": 14559,
+        "end": 14680,
+        "old": "'Access duration depends on the course or membership selected. The final duration will be shown clearly before checkout.'",
+        "value": "websiteText(website,\"landing-132\",\"Access duration depends on the course or membership selected. The final duration will be shown clearly before checkout.\")"
+      },
+      {
+        "start": 14683,
+        "end": 14719,
+        "old": "'Can I learn on mobile and desktop?'",
+        "value": "websiteText(website,\"landing-133\",\"Can I learn on mobile and desktop?\")"
+      },
+      {
+        "start": 14720,
+        "end": 14821,
+        "old": "'Yes. The learning experience is being designed responsively for desktop, tablet and mobile devices.'",
+        "value": "websiteText(website,\"landing-134\",\"Yes. The learning experience is being designed responsively for desktop, tablet and mobile devices.\")"
+      },
+      {
+        "start": 14824,
+        "end": 14852,
+        "old": "'Will my progress be saved?'",
+        "value": "websiteText(website,\"landing-135\",\"Will my progress be saved?\")"
+      },
+      {
+        "start": 14853,
+        "end": 14964,
+        "old": "'Yes. Once the LMS backend is connected, completed lessons and course progress will be stored in your account.'",
+        "value": "websiteText(website,\"landing-136\",\"Yes. Once the LMS backend is connected, completed lessons and course progress will be stored in your account.\")"
+      },
+      {
+        "start": 14967,
+        "end": 14996,
+        "old": "'Are certificates available?'",
+        "value": "websiteText(website,\"landing-137\",\"Are certificates available?\")"
+      },
+      {
+        "start": 14997,
+        "end": 15079,
+        "old": "'Eligible completed programs can issue a Singh Academy certificate of completion.'",
+        "value": "websiteText(website,\"landing-138\",\"Eligible completed programs can issue a Singh Academy certificate of completion.\")"
+      },
+      {
+        "start": 15269,
+        "end": 15292,
+        "old": "BEGIN YOUR NEXT CHAPTER",
+        "value": "{websiteText(website,\"landing-140\",\"BEGIN YOUR NEXT CHAPTER\")}"
+      },
+      {
+        "start": 15303,
+        "end": 15353,
+        "old": "Turn difficult conversations into better outcomes.",
+        "value": "{websiteText(website,\"landing-141\",\"Turn difficult conversations into better outcomes.\")}"
+      },
+      {
+        "start": 15361,
+        "end": 15444,
+        "old": "Build the confidence and frameworks to negotiate, mediate and lead across cultures.",
+        "value": "{websiteText(website,\"landing-142\",\"Build the confidence and frameworks to negotiate, mediate and lead across cultures.\")}"
+      },
+      {
+        "start": 15492,
+        "end": 15508,
+        "old": "Start Learning →",
+        "value": "{websiteText(website,\"landing-143\",\"Start Learning →\")}"
+      }
+    ]
+  },
+  {
+    "file": "frontend/app/home/page.tsx",
+    "before": "cf0f86a0dd0326361f4cd8c3d036569eba704e4a1581518d368b6b1b4da9eeed",
+    "after": "cbe2ebc99554b316056820b1870ba6f576a38434fe6a09ea0c9abbb82fa51905",
+    "edits": [
+      {
+        "start": 13,
+        "end": 13,
+        "old": "",
+        "value": "\nimport {useWebsiteContent,websiteText} from \"../../components/WebsiteContent\";\n"
+      },
+      {
+        "start": 345,
+        "end": 345,
+        "old": "",
+        "value": "const website=useWebsiteContent();"
+      },
+      {
+        "start": 682,
+        "end": 703,
+        "old": "SINGH ACADEMY COURSES",
+        "value": "{websiteText(website,\"home-001\",\"SINGH ACADEMY COURSES\")}"
+      },
+      {
+        "start": 714,
+        "end": 767,
+        "old": "Learn practical skills for conversations that matter.",
+        "value": "{websiteText(website,\"home-002\",\"Learn practical skills for conversations that matter.\")}"
+      },
+      {
+        "start": 775,
+        "end": 901,
+        "old": "Browse professional courses, choose your access plan, enroll securely and start lessons inside the same Singh Academy website.",
+        "value": "{websiteText(website,\"home-003\",\"Browse professional courses, choose your access plan, enroll securely and start lessons inside the same Singh Academy website.\")}"
+      },
+      {
+        "start": 948,
+        "end": 964,
+        "old": "Browse Courses →",
+        "value": "{websiteText(website,\"home-004\",\"Browse Courses →\")}"
+      },
+      {
+        "start": 1116,
+        "end": 1141,
+        "old": "\"Dr. Sukhsimranjit Singh\"",
+        "value": "{websiteText(website,\"home-005\",\"Dr. Sukhsimranjit Singh\")}"
+      },
+      {
+        "start": 1203,
+        "end": 1238,
+        "old": "\"Singh Academy learning experience\"",
+        "value": "{websiteText(website,\"home-006\",\"Singh Academy learning experience\")}"
+      },
+      {
+        "start": 1362,
+        "end": 1376,
+        "old": "COURSE CATALOG",
+        "value": "{websiteText(website,\"home-007\",\"COURSE CATALOG\")}"
+      },
+      {
+        "start": 1387,
+        "end": 1411,
+        "old": "Choose your next course.",
+        "value": "{websiteText(website,\"home-008\",\"Choose your next course.\")}"
+      },
+      {
+        "start": 1425,
+        "end": 1537,
+        "old": "Each program includes structured modules, lessons, video learning, downloadable resources and progress tracking.",
+        "value": "{websiteText(website,\"home-009\",\"Each program includes structured modules, lessons, video learning, downloadable resources and progress tracking.\")}"
+      },
+      {
+        "start": 1608,
+        "end": 1634,
+        "old": "Loading published courses…",
+        "value": "{websiteText(website,\"home-010\",\"Loading published courses…\")}"
+      },
+      {
+        "start": 1714,
+        "end": 1749,
+        "old": "No courses have been published yet.",
+        "value": "{websiteText(website,\"home-011\",\"No courses have been published yet.\")}"
+      },
+      {
+        "start": 2457,
+        "end": 2470,
+        "old": "View Course →",
+        "value": "{websiteText(website,\"home-012\",\"View Course →\")}"
+      },
+      {
+        "start": 2578,
+        "end": 2598,
+        "old": "LEARNING IN PRACTICE",
+        "value": "{websiteText(website,\"home-013\",\"LEARNING IN PRACTICE\")}"
+      },
+      {
+        "start": 2609,
+        "end": 2689,
+        "old": "Courses shaped by real conversations, global events and professional experience.",
+        "value": "{websiteText(website,\"home-014\",\"Courses shaped by real conversations, global events and professional experience.\")}"
+      },
+      {
+        "start": 2697,
+        "end": 2809,
+        "old": "Real Singh Academy workshops and global learning experiences connect course concepts with professional practice.",
+        "value": "{websiteText(website,\"home-015\",\"Real Singh Academy workshops and global learning experiences connect course concepts with professional practice.\")}"
+      },
+      {
+        "start": 2909,
+        "end": 2937,
+        "old": "\"Singh Academy global event\"",
+        "value": "{websiteText(website,\"home-016\",\"Singh Academy global event\")}"
+      },
+      {
+        "start": 2995,
+        "end": 3024,
+        "old": "\"International academy event\"",
+        "value": "{websiteText(website,\"home-017\",\"International academy event\")}"
+      },
+      {
+        "start": 3086,
+        "end": 3118,
+        "old": "\"Professional learning workshop\"",
+        "value": "{websiteText(website,\"home-018\",\"Professional learning workshop\")}"
+      }
+    ]
+  },
+  {
+    "file": "frontend/app/about/page.tsx",
+    "before": "10ff868a10b22479f133691f9e97ed3bdd310118c2085ff9f18f33e9f88f2a13",
+    "after": "575c0acec61e6e5cefb45271a6b4cc02d7b886b99bf876a9d5c4cf27f3328f9e",
+    "edits": [
+      {
+        "start": 0,
+        "end": 0,
+        "old": "",
+        "value": "'use client';\nimport {useWebsiteContent,websiteText} from \"../../components/WebsiteContent\";\n"
+      },
+      {
+        "start": 393,
+        "end": 393,
+        "old": "",
+        "value": "const website=useWebsiteContent();"
+      },
+      {
+        "start": 418,
+        "end": 439,
+        "old": "\"ABOUT SINGH ACADEMY\"",
+        "value": "{websiteText(website,\"about-001\",\"ABOUT SINGH ACADEMY\")}"
+      },
+      {
+        "start": 446,
+        "end": 505,
+        "old": "\"Practical learning for conversations that shape outcomes.\"",
+        "value": "{websiteText(website,\"about-002\",\"Practical learning for conversations that shape outcomes.\")}"
+      },
+      {
+        "start": 512,
+        "end": 653,
+        "old": "\"Singh Academy brings together negotiation, mediation, leadership and cross-cultural learning in a practical executive-education experience.\"",
+        "value": "{websiteText(website,\"about-003\",\"Singh Academy brings together negotiation, mediation, leadership and cross-cultural learning in a practical executive-education experience.\")}"
+      },
+      {
+        "start": 727,
+        "end": 736,
+        "old": "OUR STORY",
+        "value": "{websiteText(website,\"about-004\",\"OUR STORY\")}"
+      },
+      {
+        "start": 747,
+        "end": 782,
+        "old": "Transform conflict into connection.",
+        "value": "{websiteText(website,\"about-005\",\"Transform conflict into connection.\")}"
+      },
+      {
+        "start": 790,
+        "end": 956,
+        "old": "The Academy is built around a simple idea: difficult conversations become more productive when people have better frameworks, cultural awareness and practical skills.",
+        "value": "{websiteText(website,\"about-006\",\"The Academy is built around a simple idea: difficult conversations become more productive when people have better frameworks, cultural awareness and practical skills.\")}"
+      },
+      {
+        "start": 963,
+        "end": 1085,
+        "old": "Our learning experience connects academic rigor with professional practice so learners can apply ideas in real situations.",
+        "value": "{websiteText(website,\"about-007\",\"Our learning experience connects academic rigor with professional practice so learners can apply ideas in real situations.\")}"
+      },
+      {
+        "start": 1154,
+        "end": 1170,
+        "old": "MISSION & VISION",
+        "value": "{websiteText(website,\"about-008\",\"MISSION & VISION\")}"
+      },
+      {
+        "start": 1181,
+        "end": 1210,
+        "old": "Negotiation into opportunity.",
+        "value": "{websiteText(website,\"about-009\",\"Negotiation into opportunity.\")}"
+      },
+      {
+        "start": 1218,
+        "end": 1331,
+        "old": "Empower individuals with the skills to communicate, negotiate, mediate and lead more effectively across cultures.",
+        "value": "{websiteText(website,\"about-010\",\"Empower individuals with the skills to communicate, negotiate, mediate and lead more effectively across cultures.\")}"
+      },
+      {
+        "start": 1465,
+        "end": 1484,
+        "old": "ACADEMY IN PICTURES",
+        "value": "{websiteText(website,\"about-011\",\"ACADEMY IN PICTURES\")}"
+      },
+      {
+        "start": 1495,
+        "end": 1535,
+        "old": "People, learning and global perspective.",
+        "value": "{websiteText(website,\"about-012\",\"People, learning and global perspective.\")}"
+      },
+      {
+        "start": 1549,
+        "end": 1646,
+        "old": "A selection of Singh Academy workshops, professional communities and global learning experiences.",
+        "value": "{websiteText(website,\"about-013\",\"A selection of Singh Academy workshops, professional communities and global learning experiences.\")}"
+      }
+    ]
+  },
+  {
+    "file": "frontend/app/courses/page.tsx",
+    "before": "eaa8c83a54b7a388ba27818c8e0cebabe7fde1afd77f6447a98a5e1aa4d4475e",
+    "after": "e1fdcba2d8dcee1fa19e6eb6347e70157c3bfbc6d570b3851791df235c52a411",
+    "edits": [
+      {
+        "start": 13,
+        "end": 13,
+        "old": "",
+        "value": "\nimport {useWebsiteContent,websiteText} from \"../../components/WebsiteContent\";\n"
+      },
+      {
+        "start": 491,
+        "end": 491,
+        "old": "",
+        "value": "const website=useWebsiteContent();"
+      },
+      {
+        "start": 816,
+        "end": 823,
+        "old": "COURSES",
+        "value": "{websiteText(website,\"courses-001\",\"COURSES\")}"
+      },
+      {
+        "start": 834,
+        "end": 893,
+        "old": "Professional learning, organized around practical outcomes.",
+        "value": "{websiteText(website,\"courses-002\",\"Professional learning, organized around practical outcomes.\")}"
+      },
+      {
+        "start": 901,
+        "end": 1003,
+        "old": "Open a course to review curriculum, modules, lessons, resources, access period and enrollment options.",
+        "value": "{websiteText(website,\"courses-003\",\"Open a course to review curriculum, modules, lessons, resources, access period and enrollment options.\")}"
+      },
+      {
+        "start": 1090,
+        "end": 1106,
+        "old": "Loading courses…",
+        "value": "{websiteText(website,\"courses-004\",\"Loading courses…\")}"
+      },
+      {
+        "start": 1939,
+        "end": 1952,
+        "old": "View Course →",
+        "value": "{websiteText(website,\"courses-005\",\"View Course →\")}"
+      },
+      {
+        "start": 2012,
+        "end": 2032,
+        "old": "Courses coming soon.",
+        "value": "{websiteText(website,\"courses-006\",\"Courses coming soon.\")}"
+      },
+      {
+        "start": 2039,
+        "end": 2152,
+        "old": "No published course data is available yet. Run the backend seed command or publish courses from the admin system.",
+        "value": "{websiteText(website,\"courses-007\",\"No published course data is available yet. Run the backend seed command or publish courses from the admin system.\")}"
+      }
+    ]
+  },
+  {
+    "file": "frontend/app/team/page.tsx",
+    "before": "11e4896c58d84664413750c08eda2760a6a78f1305de5e489657aea1ff8e685c",
+    "after": "cabdd1bf5a9f40e1b1a90d2f35efa3e0a8ee56b0d7751a7c96c574de718631a3",
+    "edits": [
+      {
+        "start": 13,
+        "end": 13,
+        "old": "",
+        "value": "\nimport {useWebsiteContent,websiteText} from \"../../components/WebsiteContent\";\n"
+      },
+      {
+        "start": 378,
+        "end": 378,
+        "old": "",
+        "value": "const website=useWebsiteContent();"
+      },
+      {
+        "start": 726,
+        "end": 739,
+        "old": "\"GLOBAL TEAM\"",
+        "value": "{websiteText(website,\"team-001\",\"GLOBAL TEAM\")}"
+      },
+      {
+        "start": 746,
+        "end": 784,
+        "old": "\"Meet the people behind the learning.\"",
+        "value": "{websiteText(website,\"team-002\",\"Meet the people behind the learning.\")}"
+      },
+      {
+        "start": 791,
+        "end": 851,
+        "old": "\"Faculty, advisors and leadership supporting Singh Academy.\"",
+        "value": "{websiteText(website,\"team-003\",\"Faculty, advisors and leadership supporting Singh Academy.\")}"
+      },
+      {
+        "start": 1110,
+        "end": 1123,
+        "old": "Loading team…",
+        "value": "{websiteText(website,\"team-004\",\"Loading team…\")}"
+      },
+      {
+        "start": 1563,
+        "end": 1600,
+        "old": "No team members in this category yet.",
+        "value": "{websiteText(website,\"team-005\",\"No team members in this category yet.\")}"
+      },
+      {
+        "start": 1607,
+        "end": 1672,
+        "old": "New profiles added in the backend will appear here automatically.",
+        "value": "{websiteText(website,\"team-006\",\"New profiles added in the backend will appear here automatically.\")}"
+      }
+    ]
+  },
+  {
+    "file": "frontend/app/events/page.tsx",
+    "before": "1dfbffc9d140ee2c45d70d7df0db45bb2c0e0d00153e0e993a6c247579273e9e",
+    "after": "5be2f052a2a0414b60326d3ad092d2fe704e71dc04bc127d839ef1aa3f0d4a87",
+    "edits": [
+      {
+        "start": 13,
+        "end": 13,
+        "old": "",
+        "value": "\nimport {useWebsiteContent,websiteText} from \"../../components/WebsiteContent\";\n"
+      },
+      {
+        "start": 245,
+        "end": 245,
+        "old": "",
+        "value": "const website=useWebsiteContent();"
+      },
+      {
+        "start": 602,
+        "end": 610,
+        "old": "\"EVENTS\"",
+        "value": "{websiteText(website,\"events-001\",\"EVENTS\")}"
+      },
+      {
+        "start": 617,
+        "end": 659,
+        "old": "\"Live learning and Academy conversations.\"",
+        "value": "{websiteText(website,\"events-002\",\"Live learning and Academy conversations.\")}"
+      },
+      {
+        "start": 666,
+        "end": 739,
+        "old": "\"Explore Academy sessions, discussions and professional learning events.\"",
+        "value": "{websiteText(website,\"events-003\",\"Explore Academy sessions, discussions and professional learning events.\")}"
+      },
+      {
+        "start": 797,
+        "end": 812,
+        "old": "Loading events…",
+        "value": "{websiteText(website,\"events-004\",\"Loading events…\")}"
+      },
+      {
+        "start": 907,
+        "end": 912,
+        "old": "Retry",
+        "value": "{websiteText(website,\"events-005\",\"Retry\")}"
+      },
+      {
+        "start": 975,
+        "end": 999,
+        "old": "No published events yet.",
+        "value": "{websiteText(website,\"events-006\",\"No published events yet.\")}"
+      },
+      {
+        "start": 1007,
+        "end": 1067,
+        "old": "New Academy events will appear here when they are announced.",
+        "value": "{websiteText(website,\"events-007\",\"New Academy events will appear here when they are announced.\")}"
+      },
+      {
+        "start": 1779,
+        "end": 1794,
+        "old": "View location ↗",
+        "value": "{websiteText(website,\"events-008\",\"View location ↗\")}"
+      }
+    ]
+  },
+  {
+    "file": "frontend/app/academy/page.tsx",
+    "before": "962ad6c2cef2b3a3e0028a221eaf37a06cb10a165b9372af6659f0571fc88874",
+    "after": "59aeaa4f18e44c47049f5677b69a717ce621487deb3c5f0726c622b762137d85",
+    "edits": [
+      {
+        "start": 13,
+        "end": 13,
+        "old": "",
+        "value": "\nimport {useWebsiteContent,websiteText} from \"../../components/WebsiteContent\";\n"
+      },
+      {
+        "start": 256,
+        "end": 256,
+        "old": "",
+        "value": "const website=useWebsiteContent();"
+      },
+      {
+        "start": 525,
+        "end": 546,
+        "old": "\"FULL ACADEMY ACCESS\"",
+        "value": "{websiteText(website,\"academy-001\",\"FULL ACADEMY ACCESS\")}"
+      },
+      {
+        "start": 553,
+        "end": 598,
+        "old": "\"One membership. A broader learning library.\"",
+        "value": "{websiteText(website,\"academy-002\",\"One membership. A broader learning library.\")}"
+      },
+      {
+        "start": 605,
+        "end": 669,
+        "old": "\"Choose Academy access when you want more than a single course.\"",
+        "value": "{websiteText(website,\"academy-003\",\"Choose Academy access when you want more than a single course.\")}"
+      },
+      {
+        "start": 818,
+        "end": 828,
+        "old": "MEMBERSHIP",
+        "value": "{websiteText(website,\"academy-004\",\"MEMBERSHIP\")}"
+      },
+      {
+        "start": 965,
+        "end": 1021,
+        "old": " month(s) of access · one payment · no automatic renewal",
+        "value": "{websiteText(website,\"academy-005\",\" month(s) of access · one payment · no automatic renewal\")}"
+      },
+      {
+        "start": 1269,
+        "end": 1286,
+        "old": "Choose membership",
+        "value": "{websiteText(website,\"academy-006\",\"Choose membership\")}"
+      }
+    ]
+  },
+  {
+    "file": "frontend/app/reviews/page.tsx",
+    "before": "8ccedb404e35447a2f623eaafdd2c13d05b6f6ccd56b51b90d54b901cfb72e4e",
+    "after": "93debee258e41b9c8cd5657a4e8358277642279cf78e864020616a6fd01ded5b",
+    "edits": [
+      {
+        "start": 13,
+        "end": 13,
+        "old": "",
+        "value": "\nimport {useWebsiteContent,websiteText} from \"../../components/WebsiteContent\";\n"
+      },
+      {
+        "start": 320,
+        "end": 320,
+        "old": "",
+        "value": "const website=useWebsiteContent();"
+      },
+      {
+        "start": 1349,
+        "end": 1358,
+        "old": "\"REVIEWS\"",
+        "value": "{websiteText(website,\"reviews-001\",\"REVIEWS\")}"
+      },
+      {
+        "start": 1365,
+        "end": 1400,
+        "old": "\"What learners and colleagues say.\"",
+        "value": "{websiteText(website,\"reviews-002\",\"What learners and colleagues say.\")}"
+      },
+      {
+        "start": 1407,
+        "end": 1459,
+        "old": "\"Client-approved testimonials and learner feedback.\"",
+        "value": "{websiteText(website,\"reviews-003\",\"Client-approved testimonials and learner feedback.\")}"
+      },
+      {
+        "start": 1653,
+        "end": 1669,
+        "old": "COMMUNITY RATING",
+        "value": "{websiteText(website,\"reviews-004\",\"COMMUNITY RATING\")}"
+      },
+      {
+        "start": 1908,
+        "end": 1917,
+        "old": "Based on ",
+        "value": "{websiteText(website,\"reviews-006\",\"Based on \")}"
+      },
+      {
+        "start": 1929,
+        "end": 1945,
+        "old": " learner reviews",
+        "value": "{websiteText(website,\"reviews-007\",\" learner reviews\")}"
+      },
+      {
+        "start": 2060,
+        "end": 2073,
+        "old": "YOUR FEEDBACK",
+        "value": "{websiteText(website,\"reviews-008\",\"YOUR FEEDBACK\")}"
+      },
+      {
+        "start": 2084,
+        "end": 2119,
+        "old": "Share your Singh Academy experience",
+        "value": "{websiteText(website,\"reviews-009\",\"Share your Singh Academy experience\")}"
+      },
+      {
+        "start": 2201,
+        "end": 2212,
+        "old": "Your rating",
+        "value": "{websiteText(website,\"reviews-010\",\"Your rating\")}"
+      },
+      {
+        "start": 2499,
+        "end": 2505,
+        "old": "Review",
+        "value": "{websiteText(website,\"reviews-012\",\"Review\")}"
+      },
+      {
+        "start": 2999,
+        "end": 3053,
+        "old": "Your review will appear after the Academy approves it.",
+        "value": "{websiteText(website,\"reviews-013\",\"Your review will appear after the Academy approves it.\")}"
+      },
+      {
+        "start": 3100,
+        "end": 3142,
+        "old": "Please sign in before submitting a review.",
+        "value": "{websiteText(website,\"reviews-014\",\"Please sign in before submitting a review.\")}"
+      },
+      {
+        "start": 3199,
+        "end": 3218,
+        "old": "Sign In to Review →",
+        "value": "{websiteText(website,\"reviews-015\",\"Sign In to Review →\")}"
+      }
+    ]
+  },
+  {
+    "file": "frontend/app/contact/page.tsx",
+    "before": "2b03a08474dc5c9987b4888c1511c5185d8954ac259632aa093ee3a62c867295",
+    "after": "c16e024100adef242f9842affe4f8abbe1e17dd7bacb0751dd252faaaf558c97",
+    "edits": [
+      {
+        "start": 14,
+        "end": 14,
+        "old": "",
+        "value": "\nimport {useWebsiteContent,websiteText} from \"../../components/WebsiteContent\";\n"
+      },
+      {
+        "start": 178,
+        "end": 178,
+        "old": "",
+        "value": "const website=useWebsiteContent();"
+      },
+      {
+        "start": 703,
+        "end": 712,
+        "old": "\"CONTACT\"",
+        "value": "{websiteText(website,\"contact-001\",\"CONTACT\")}"
+      },
+      {
+        "start": 719,
+        "end": 761,
+        "old": "\"Start a conversation with Singh Academy.\"",
+        "value": "{websiteText(website,\"contact-002\",\"Start a conversation with Singh Academy.\")}"
+      },
+      {
+        "start": 768,
+        "end": 851,
+        "old": "\"Questions about courses, Academy access or professional learning? Send a message.\"",
+        "value": "{websiteText(website,\"contact-003\",\"Questions about courses, Academy access or professional learning? Send a message.\")}"
+      },
+      {
+        "start": 959,
+        "end": 963,
+        "old": "Name",
+        "value": "{websiteText(website,\"contact-004\",\"Name\")}"
+      },
+      {
+        "start": 1097,
+        "end": 1102,
+        "old": "Email",
+        "value": "{websiteText(website,\"contact-005\",\"Email\")}"
+      },
+      {
+        "start": 1240,
+        "end": 1247,
+        "old": "Message",
+        "value": "{websiteText(website,\"contact-006\",\"Message\")}"
+      },
+      {
+        "start": 1419,
+        "end": 1435,
+        "old": "Leave this empty",
+        "value": "{websiteText(website,\"contact-007\",\"Leave this empty\")}"
+      },
+      {
+        "start": 1727,
+        "end": 1800,
+        "old": "Your details are shared with the Academy team to respond to this message.",
+        "value": "{websiteText(website,\"contact-008\",\"Your details are shared with the Academy team to respond to this message.\")}"
+      }
+    ]
+  },
+  {
+    "file": "frontend/app/book/page.tsx",
+    "before": "117ee1d29eaade50a43128b276486c2569b702a955d1ebd4bd20f63634c2e3c3",
+    "after": "e5e371d2dce36604bd8216f2e48f6e4c252334f2c0061b940b76e5d32b3258a5",
+    "edits": [
+      {
+        "start": 0,
+        "end": 0,
+        "old": "",
+        "value": "'use client';\nimport {useWebsiteContent,websiteText} from \"../../components/WebsiteContent\";\n"
+      },
+      {
+        "start": 89,
+        "end": 89,
+        "old": "",
+        "value": "const website=useWebsiteContent();"
+      },
+      {
+        "start": 114,
+        "end": 132,
+        "old": "\"FROM THE FOUNDER\"",
+        "value": "{websiteText(website,\"book-001\",\"FROM THE FOUNDER\")}"
+      },
+      {
+        "start": 139,
+        "end": 189,
+        "old": "\"Ideas, publications and cross-cultural thinking.\"",
+        "value": "{websiteText(website,\"book-002\",\"Ideas, publications and cross-cultural thinking.\")}"
+      },
+      {
+        "start": 196,
+        "end": 271,
+        "old": "\"This page is ready for Dr. Singh’s approved book and publication content.\"",
+        "value": "{websiteText(website,\"book-003\",\"This page is ready for Dr. Singh’s approved book and publication content.\")}"
+      },
+      {
+        "start": 342,
+        "end": 369,
+        "old": "Cross-Cultural Intelligence",
+        "value": "{websiteText(website,\"book-004\",\"Cross-Cultural Intelligence\")}"
+      },
+      {
+        "start": 377,
+        "end": 464,
+        "old": "Publication details, cover artwork and purchase information can be added when approved.",
+        "value": "{websiteText(website,\"book-005\",\"Publication details, cover artwork and purchase information can be added when approved.\")}"
+      }
+    ]
+  },
+  {
+    "file": "frontend/components/layout/SiteFooter.tsx",
+    "before": "2bd360b3a4f061fcada6f8652ba5cef4172734d0d9983a750b0f5db0379eaec8",
+    "after": "ffb65794f170aa67783df4646d8cd5efcff282fd8c32ad5d9d58cb22824fa48b",
+    "edits": [
+      {
+        "start": 13,
+        "end": 13,
+        "old": "",
+        "value": "\nimport {useWebsiteContent,websiteText} from \"../WebsiteContent\";\n"
+      },
+      {
+        "start": 715,
+        "end": 715,
+        "old": "",
+        "value": "const website=useWebsiteContent();"
+      },
+      {
+        "start": 1035,
+        "end": 1050,
+        "old": "\"Singh Academy\"",
+        "value": "{websiteText(website,\"footer-001\",\"Singh Academy\")}"
+      },
+      {
+        "start": 1065,
+        "end": 1078,
+        "old": "SINGH ACADEMY",
+        "value": "{websiteText(website,\"footer-002\",\"SINGH ACADEMY\")}"
+      },
+      {
+        "start": 1090,
+        "end": 1161,
+        "old": "Transforming conflict into connection and negotiation into opportunity.",
+        "value": "{websiteText(website,\"footer-003\",\"Transforming conflict into connection and negotiation into opportunity.\")}"
+      },
+      {
+        "start": 1462,
+        "end": 1469,
+        "old": "Explore",
+        "value": "{websiteText(website,\"footer-004\",\"Explore\")}"
+      },
+      {
+        "start": 1490,
+        "end": 1495,
+        "old": "About",
+        "value": "{websiteText(website,\"footer-005\",\"About\")}"
+      },
+      {
+        "start": 1518,
+        "end": 1525,
+        "old": "Academy",
+        "value": "{websiteText(website,\"footer-006\",\"Academy\")}"
+      },
+      {
+        "start": 1545,
+        "end": 1549,
+        "old": "Team",
+        "value": "{websiteText(website,\"footer-007\",\"Team\")}"
+      },
+      {
+        "start": 1572,
+        "end": 1579,
+        "old": "Reviews",
+        "value": "{websiteText(website,\"footer-008\",\"Reviews\")}"
+      },
+      {
+        "start": 1597,
+        "end": 1602,
+        "old": "Learn",
+        "value": "{websiteText(website,\"footer-009\",\"Learn\")}"
+      },
+      {
+        "start": 1624,
+        "end": 1630,
+        "old": "Events",
+        "value": "{websiteText(website,\"footer-010\",\"Events\")}"
+      },
+      {
+        "start": 1653,
+        "end": 1660,
+        "old": "Courses",
+        "value": "{websiteText(website,\"footer-011\",\"Courses\")}"
+      },
+      {
+        "start": 1683,
+        "end": 1690,
+        "old": "Contact",
+        "value": "{websiteText(website,\"footer-012\",\"Contact\")}"
+      },
+      {
+        "start": 1708,
+        "end": 1715,
+        "old": "Account",
+        "value": "{websiteText(website,\"footer-013\",\"Account\")}"
+      },
+      {
+        "start": 1736,
+        "end": 1743,
+        "old": "Sign In",
+        "value": "{websiteText(website,\"footer-014\",\"Sign In\")}"
+      },
+      {
+        "start": 1767,
+        "end": 1778,
+        "old": "Get Started",
+        "value": "{websiteText(website,\"footer-015\",\"Get Started\")}"
+      },
+      {
+        "start": 1799,
+        "end": 1804,
+        "old": "Terms",
+        "value": "{websiteText(website,\"footer-016\",\"Terms\")}"
+      },
+      {
+        "start": 1827,
+        "end": 1834,
+        "old": "Privacy",
+        "value": "{websiteText(website,\"footer-017\",\"Privacy\")}"
+      },
+      {
+        "start": 1886,
+        "end": 1928,
+        "old": "© 2026 Singh Academy. All rights reserved.",
+        "value": "{websiteText(website,\"footer-018\",\"© 2026 Singh Academy. All rights reserved.\")}"
+      },
+      {
+        "start": 1941,
+        "end": 2008,
+        "old": "Negotiation • Mediation • Leadership • Cross-Cultural Communication",
+        "value": "{websiteText(website,\"footer-019\",\"Negotiation • Mediation • Leadership • Cross-Cultural Communication\")}"
+      }
+    ]
+  }
+]

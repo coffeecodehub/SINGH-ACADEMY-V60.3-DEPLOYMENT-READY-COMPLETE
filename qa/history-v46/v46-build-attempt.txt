@@ -1,0 +1,7 @@
+Command: npm --prefix frontend run build
+
+> singh-academy-frontend@46.0.0 build
+> next build
+
+sh: 1: next: not found
+Exit: 127

@@ -1,0 +1,65 @@
+{
+  "scope": "Actual Chromium rendering of static sample TSX/CSS with mocked hooks and records. Not real React/Next application testing.",
+  "results": [
+    {
+      "fixture": "billing",
+      "viewport": 320,
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "fixture": "billing",
+      "viewport": 390,
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "fixture": "billing",
+      "viewport": 768,
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "fixture": "billing",
+      "viewport": 1024,
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "fixture": "billing",
+      "viewport": 1440,
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "fixture": "review",
+      "viewport": 320,
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "fixture": "review",
+      "viewport": 390,
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "fixture": "review",
+      "viewport": 768,
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "fixture": "review",
+      "viewport": 1024,
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "fixture": "review",
+      "viewport": 1440,
+      "width": 1440,
+      "overflow": false
+    }
+  ]
+}

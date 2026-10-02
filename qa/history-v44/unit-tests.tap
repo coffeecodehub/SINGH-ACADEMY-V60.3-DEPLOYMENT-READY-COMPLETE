@@ -1,0 +1,422 @@
+
+> singh-academy-backend@1.0.0 test
+> node --test test/*.test.js
+
+TAP version 13
+# Subtest: admin role accepted: client_admin
+ok 1 - admin role accepted: client_admin
+  ---
+  duration_ms: 1.473708
+  type: 'test'
+  ...
+# Subtest: admin role accepted: admin
+ok 2 - admin role accepted: admin
+  ---
+  duration_ms: 0.193798
+  type: 'test'
+  ...
+# Subtest: admin role accepted: administrator
+ok 3 - admin role accepted: administrator
+  ---
+  duration_ms: 0.086672
+  type: 'test'
+  ...
+# Subtest: admin role accepted: client-admin
+ok 4 - admin role accepted: client-admin
+  ---
+  duration_ms: 0.156268
+  type: 'test'
+  ...
+# Subtest: admin role accepted: super_admin
+ok 5 - admin role accepted: super_admin
+  ---
+  duration_ms: 0.152632
+  type: 'test'
+  ...
+# Subtest: admin role accepted: superadmin
+ok 6 - admin role accepted: superadmin
+  ---
+  duration_ms: 0.11126
+  type: 'test'
+  ...
+# Subtest: student role denied CMS access
+ok 7 - student role denied CMS access
+  ---
+  duration_ms: 0.189115
+  type: 'test'
+  ...
+# Subtest: client admin creates an event with generated slug
+ok 8 - client admin creates an event with generated slug
+  ---
+  duration_ms: 1.729061
+  type: 'test'
+  ...
+# Subtest: client admin can create team members
+ok 9 - client admin can create team members
+  ---
+  duration_ms: 1.445241
+  type: 'test'
+  ...
+# Subtest: reviews cannot be fabricated through admin Add
+ok 10 - reviews cannot be fabricated through admin Add
+  ---
+  duration_ms: 1.459883
+  type: 'test'
+  ...
+# Subtest: client admin cannot modify footer settings
+ok 11 - client admin cannot modify footer settings
+  ---
+  duration_ms: 0.535281
+  type: 'test'
+  ...
+# Subtest: client admin can save Academy Plans
+ok 12 - client admin can save Academy Plans
+  ---
+  duration_ms: 0.572763
+  type: 'test'
+  ...
+# Subtest: super admin can save footer settings
+ok 13 - super admin can save footer settings
+  ---
+  duration_ms: 0.564568
+  type: 'test'
+  ...
+# Subtest: new lessons default to draft
+ok 14 - new lessons default to draft
+  ---
+  duration_ms: 0.807982
+  type: 'test'
+  ...
+# Subtest: purchased course deletion is blocked
+ok 15 - purchased course deletion is blocked
+  ---
+  duration_ms: 1.045652
+  type: 'test'
+  ...
+# Subtest: invalid record identifier rejected before database use
+ok 16 - invalid record identifier rejected before database use
+  ---
+  duration_ms: 0.448323
+  type: 'test'
+  ...
+# Subtest: cross-parent curriculum reorder rejected
+ok 17 - cross-parent curriculum reorder rejected
+  ---
+  duration_ms: 0.586368
+  type: 'test'
+  ...
+# Subtest: valid curriculum reorder keeps parent filter
+ok 18 - valid curriculum reorder keeps parent filter
+  ---
+  duration_ms: 0.39311
+  type: 'test'
+  ...
+# Subtest: testing route guard: production, flag=true
+ok 19 - testing route guard: production, flag=true
+  ---
+  duration_ms: 0.254859
+  type: 'test'
+  ...
+# Subtest: testing route guard: development, flag=false
+ok 20 - testing route guard: development, flag=false
+  ---
+  duration_ms: 0.157901
+  type: 'test'
+  ...
+# Subtest: testing route guard: development, flag=true
+ok 21 - testing route guard: development, flag=true
+  ---
+  duration_ms: 0.111409
+  type: 'test'
+  ...
+# Subtest: admin can preview uploaded media before publishing
+ok 22 - admin can preview uploaded media before publishing
+  ---
+  duration_ms: 0.549628
+  type: 'test'
+  ...
+# Subtest: published course cover is public
+ok 23 - published course cover is public
+  ---
+  duration_ms: 0.506228
+  type: 'test'
+  ...
+# Subtest: unreferenced media is not public
+ok 24 - unreferenced media is not public
+  ---
+  duration_ms: 0.216573
+  type: 'test'
+  ...
+# Subtest: paid lesson media denied to guests
+ok 25 - paid lesson media denied to guests
+  ---
+  duration_ms: 0.261166
+  type: 'test'
+  ...
+# Subtest: paid lesson media denied without an entitlement
+ok 26 - paid lesson media denied without an entitlement
+  ---
+  duration_ms: 0.283712
+  type: 'test'
+  ...
+# Subtest: enrolled student can access paid lesson media
+ok 27 - enrolled student can access paid lesson media
+  ---
+  duration_ms: 0.226133
+  type: 'test'
+  ...
+# Subtest: active academy member can access paid lesson media
+ok 28 - active academy member can access paid lesson media
+  ---
+  duration_ms: 0.833916
+  type: 'test'
+  ...
+# Subtest: published preview lesson media is public
+ok 29 - published preview lesson media is public
+  ---
+  duration_ms: 0.336166
+  type: 'test'
+  ...
+# Subtest: media under an unpublished course remains hidden
+ok 30 - media under an unpublished course remains hidden
+  ---
+  duration_ms: 0.645746
+  type: 'test'
+  ...
+# Subtest: event slug generated from title
+ok 31 - event slug generated from title
+  ---
+  duration_ms: 1.465129
+  type: 'test'
+  ...
+# Subtest: team slug generated from member name
+ok 32 - team slug generated from member name
+  ---
+  duration_ms: 0.454067
+  type: 'test'
+  ...
+# Subtest: slug strips accents and punctuation
+ok 33 - slug strips accents and punctuation
+  ---
+  duration_ms: 0.188322
+  type: 'test'
+  ...
+# Subtest: blank titles rejected
+ok 34 - blank titles rejected
+  ---
+  duration_ms: 0.788347
+  type: 'test'
+  ...
+# Subtest: course slug cannot break existing entitlements
+ok 35 - course slug cannot break existing entitlements
+  ---
+  duration_ms: 0.164976
+  type: 'test'
+  ...
+# Subtest: course title remains editable with locked slug
+ok 36 - course title remains editable with locked slug
+  ---
+  duration_ms: 0.269296
+  type: 'test'
+  ...
+# Subtest: database operators and metadata stripped
+ok 37 - database operators and metadata stripped
+  ---
+  duration_ms: 0.492728
+  type: 'test'
+  ...
+# Subtest: module parent cannot be reassigned through update
+ok 38 - module parent cannot be reassigned through update
+  ---
+  duration_ms: 0.12779
+  type: 'test'
+  ...
+# Subtest: malformed dates rejected
+ok 39 - malformed dates rejected
+  ---
+  duration_ms: 0.368483
+  type: 'test'
+  ...
+# Subtest: date is stored with explicit timezone
+ok 40 - date is stored with explicit timezone
+  ---
+  duration_ms: 0.606629
+  type: 'test'
+  ...
+# Subtest: clear event date
+ok 41 - clear event date
+  ---
+  duration_ms: 0.494248
+  type: 'test'
+  ...
+# Subtest: javascript links blocked
+ok 42 - javascript links blocked
+  ---
+  duration_ms: 0.233469
+  type: 'test'
+  ...
+# Subtest: protocol-relative links blocked
+ok 43 - protocol-relative links blocked
+  ---
+  duration_ms: 0.151463
+  type: 'test'
+  ...
+# Subtest: URLs with embedded credentials blocked
+ok 44 - URLs with embedded credentials blocked
+  ---
+  duration_ms: 0.084356
+  type: 'test'
+  ...
+# Subtest: safe media path allowed
+ok 45 - safe media path allowed
+  ---
+  duration_ms: 0.047279
+  type: 'test'
+  ...
+# Subtest: nested resource links validated
+ok 46 - nested resource links validated
+  ---
+  duration_ms: 0.255876
+  type: 'test'
+  ...
+# Subtest: negative prices rejected
+ok 47 - negative prices rejected
+  ---
+  duration_ms: 0.103154
+  type: 'test'
+  ...
+# Subtest: zero-price course preserved
+ok 48 - zero-price course preserved
+  ---
+  duration_ms: 0.06197
+  type: 'test'
+  ...
+# Subtest: null sale price preserved
+ok 49 - null sale price preserved
+  ---
+  duration_ms: 0.054947
+  type: 'test'
+  ...
+# Subtest: boolean strings rejected instead of accidentally publishing
+ok 50 - boolean strings rejected instead of accidentally publishing
+  ---
+  duration_ms: 0.129771
+  type: 'test'
+  ...
+# Subtest: multiple choice requires at least two options
+ok 51 - multiple choice requires at least two options
+  ---
+  duration_ms: 0.150685
+  type: 'test'
+  ...
+# Subtest: valid question survives validation
+ok 52 - valid question survives validation
+  ---
+  duration_ms: 0.071575
+  type: 'test'
+  ...
+# Subtest: plan validates name and duration
+ok 53 - plan validates name and duration
+  ---
+  duration_ms: 0.24985
+  type: 'test'
+  ...
+# Subtest: duplicate plan identifiers rejected
+ok 54 - duplicate plan identifiers rejected
+  ---
+  duration_ms: 0.234885
+  type: 'test'
+  ...
+# Subtest: hidden plan remains hidden
+ok 55 - hidden plan remains hidden
+  ---
+  duration_ms: 0.080796
+  type: 'test'
+  ...
+# Subtest: footer only accepts supported platforms
+ok 56 - footer only accepts supported platforms
+  ---
+  duration_ms: 0.152276
+  type: 'test'
+  ...
+# Subtest: private settings are not editable
+ok 57 - private settings are not editable
+  ---
+  duration_ms: 0.155626
+  type: 'test'
+  ...
+# Subtest: normal byte range
+ok 58 - normal byte range
+  ---
+  duration_ms: 0.414063
+  type: 'test'
+  ...
+# Subtest: suffix range returns last bytes, not an inverted range
+ok 59 - suffix range returns last bytes, not an inverted range
+  ---
+  duration_ms: 0.127839
+  type: 'test'
+  ...
+# Subtest: open-ended byte range
+ok 60 - open-ended byte range
+  ---
+  duration_ms: 0.130184
+  type: 'test'
+  ...
+# Subtest: oversized suffix returns entire file
+ok 61 - oversized suffix returns entire file
+  ---
+  duration_ms: 0.065088
+  type: 'test'
+  ...
+# Subtest: range end clamps to file size
+ok 62 - range end clamps to file size
+  ---
+  duration_ms: 0.066501
+  type: 'test'
+  ...
+# Subtest: unsatisfiable and malformed ranges rejected
+ok 63 - unsatisfiable and malformed ranges rejected
+  ---
+  duration_ms: 0.117128
+  type: 'test'
+  ...
+# Subtest: legacy annual plans retain 12-month access
+ok 64 - legacy annual plans retain 12-month access
+  ---
+  duration_ms: 0.076549
+  type: 'test'
+  ...
+# Subtest: empty media identifiers are normalized to null for image removal
+ok 65 - empty media identifiers are normalized to null for image removal
+  ---
+  duration_ms: 0.119973
+  type: 'test'
+  ...
+# Subtest: footer URLs must be absolute HTTP(S) links
+ok 66 - footer URLs must be absolute HTTP(S) links
+  ---
+  duration_ms: 0.134507
+  type: 'test'
+  ...
+# Subtest: null question rejected with validation status
+ok 67 - null question rejected with validation status
+  ---
+  duration_ms: 0.08072
+  type: 'test'
+  ...
+# Subtest: null price option rejected with validation status
+ok 68 - null price option rejected with validation status
+  ---
+  duration_ms: 0.106481
+  type: 'test'
+  ...
+1..68
+# tests 68
+# suites 0
+# pass 68
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 112.490375

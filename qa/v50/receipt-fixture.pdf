@@ -1,0 +1,68 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<<  /Length 2096 >>
+stream
+.98 .97 .95 rg 0 0 595.28 841.89 re f
+.63 .40 .23 rg 0 811 595.28 31 re f
+BT .16 .18 .21 rg /F2 17 Tf 1 0 0 1 48 768 Tm (SINGH ACADEMY) Tj ET
+BT .16 .18 .21 rg /F2 28 Tf 1 0 0 1 48 717 Tm (Payment receipt) Tj ET
+BT .16 .18 .21 rg /F1 10 Tf 1 0 0 1 48 687 Tm (SANDBOX RECORD - NO REAL MONEY) Tj ET
+.85 .8 .74 RG 48 667 m 547 667 l S
+BT .16 .18 .21 rg /F2 9 Tf 1 0 0 1 48 625 Tm (Invoice) Tj ET
+BT .16 .18 .21 rg /F1 10.5 Tf 1 0 0 1 210 625 Tm (SAMPLE-INVOICE-0001) Tj ET
+BT .16 .18 .21 rg /F2 9 Tf 1 0 0 1 48 588 Tm (Receipt ID) Tj ET
+BT .16 .18 .21 rg /F1 10.5 Tf 1 0 0 1 210 588 Tm (SAMPLE-PAYMENT-0001) Tj ET
+BT .16 .18 .21 rg /F2 9 Tf 1 0 0 1 48 551 Tm (Customer) Tj ET
+BT .16 .18 .21 rg /F1 10.5 Tf 1 0 0 1 210 551 Tm (Sample Student) Tj ET
+BT .16 .18 .21 rg /F2 9 Tf 1 0 0 1 48 514 Tm (Account email) Tj ET
+BT .16 .18 .21 rg /F1 10.5 Tf 1 0 0 1 210 514 Tm (sample@example.invalid) Tj ET
+BT .16 .18 .21 rg /F2 9 Tf 1 0 0 1 48 477 Tm (Course / plan) Tj ET
+BT .16 .18 .21 rg /F1 10.5 Tf 1 0 0 1 210 477 Tm (Monthly Academy membership) Tj ET
+BT .16 .18 .21 rg /F2 9 Tf 1 0 0 1 48 440 Tm (Payment method) Tj ET
+BT .16 .18 .21 rg /F1 10.5 Tf 1 0 0 1 210 440 Tm (stripe) Tj ET
+BT .16 .18 .21 rg /F2 9 Tf 1 0 0 1 48 403 Tm (Transaction reference) Tj ET
+BT .16 .18 .21 rg /F1 10.5 Tf 1 0 0 1 210 403 Tm (SAMPLE-not-a-bank-payment) Tj ET
+BT .16 .18 .21 rg /F2 9 Tf 1 0 0 1 48 366 Tm (Payment date) Tj ET
+BT .16 .18 .21 rg /F1 10.5 Tf 1 0 0 1 210 366 Tm (2026-09-29 \(UTC\)) Tj ET
+BT .16 .18 .21 rg /F2 9 Tf 1 0 0 1 48 329 Tm (Amount received) Tj ET
+BT .16 .18 .21 rg /F2 18 Tf 1 0 0 1 210 329 Tm (USD 99.00) Tj ET
+BT .16 .18 .21 rg /F1 10 Tf 1 0 0 1 48 162 Tm (This receipt records the payment stored by the Academy.) Tj ET
+BT .16 .18 .21 rg /F1 9 Tf 1 0 0 1 48 143 Tm (A student-uploaded screenshot is supporting material, not bank verification.) Tj ET
+BT .16 .18 .21 rg /F1 9 Tf 1 0 0 1 48 124 Tm (This document is not a tax invoice. Original names appear in My Billing.) Tj ET
+BT .16 .18 .21 rg /F1 9 Tf 1 0 0 1 48 86 Tm (View current invoice and access status in your Singh Academy account.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Title (Singh Academy Payment Receipt) /Author (Singh Academy) >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000263 00000 n 
+0000000333 00000 n 
+0000000408 00000 n 
+0000002557 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R /Info 7 0 R >>
+startxref
+2641
+%%EOF

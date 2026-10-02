@@ -1,0 +1,15 @@
+
+> singh-academy@48.0.0 verify
+> node scripts/verify.mjs
+
+file:///mnt/data/work_v48/singh-academy-v48/scripts/verify.mjs:4
+for(const dir of ['backend','frontend'])if(!fs.existsSync(path.join(root,dir,'package-lock.json')))throw new Error(`Missing ${dir}/package-lock.json. Run npm run install:all on a working network first.`);
+                                                                                                         ^
+
+Error: Missing backend/package-lock.json. Run npm run install:all on a working network first.
+    at file:///mnt/data/work_v48/singh-academy-v48/scripts/verify.mjs:4:106
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+
+Node.js v22.16.0

@@ -1,0 +1,41 @@
+name: Quality gates - not automatic deployment
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      TEST_MONGODB_URI: mongodb://127.0.0.1:27018/sa_test?replicaSet=rs0&directConnection=true
+      NEXT_PUBLIC_API_URL: http://localhost:5000/api
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Require reviewed lockfiles
+        run: test -f backend/package-lock.json && test -f frontend/package-lock.json
+      - name: Reproducible dependency installation
+        run: npm ci --prefix backend && npm ci --prefix frontend
+      - name: Source, unit, types, production build and dependency audit
+        run: npm run verify
+      - name: Start isolated test replica set
+        run: |
+          docker compose -f dev/test-mongo-compose.yml up -d --wait
+          docker compose -f dev/test-mongo-compose.yml exec -T mongo mongosh --eval "rs.initiate({_id:'rs0',members:[{_id:0,host:'localhost:27017'}]})"
+          for i in $(seq 1 45); do
+            docker compose -f dev/test-mongo-compose.yml exec -T mongo mongosh --quiet --eval 'if (!db.hello().isWritablePrimary) quit(2)' && break
+            sleep 2
+          done
+          docker compose -f dev/test-mongo-compose.yml exec -T mongo mongosh --quiet --eval 'if (!db.hello().isWritablePrimary) quit(2)'
+      - name: Real HTTP and transaction tests
+        run: npm run test:integration --prefix backend
+      - name: Install browser and run actual frontend checks
+        run: |
+          cd frontend
+          npx playwright install --with-deps chromium
+          npm run test:browser
+      - name: Stop test services
+        if: always()
+        run: docker compose -f dev/test-mongo-compose.yml down

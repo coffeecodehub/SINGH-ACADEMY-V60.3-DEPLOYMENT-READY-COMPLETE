@@ -1,0 +1,32 @@
+{
+  "name": "singh-academy",
+  "version": "60.3.0",
+  "private": true,
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "install:all": "node scripts/install.mjs",
+    "verify": "node scripts/verify.mjs",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "start:backend": "npm --prefix backend start",
+    "start:frontend": "npm --prefix frontend start",
+    "setup:production": "node scripts/prepare-production.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "optimize:images": "node scripts/optimize-assets.cjs",
+    "check:ui": "node scripts/check-preserved-ui.mjs",
+    "migrate:v54": "npm --prefix backend run migrate:v54",
+    "migrate:v55": "npm --prefix backend run migrate:v55",
+    "migrate:v56": "npm --prefix backend run migrate:v56",
+    "payments:check": "npm --prefix backend run payments:check",
+    "payments:reconcile": "npm --prefix backend run payments:reconcile",
+    "migrate:v57": "npm --prefix backend run migrate:v57",
+    "migrate:v58": "npm --prefix backend run migrate:v58",
+    "migrate:v59": "npm --prefix backend run migrate:v59",
+    "migrate:v60": "npm --prefix backend run migrate:v60",
+    "migrate:v60.3": "npm --prefix backend run migrate:v60.3"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}

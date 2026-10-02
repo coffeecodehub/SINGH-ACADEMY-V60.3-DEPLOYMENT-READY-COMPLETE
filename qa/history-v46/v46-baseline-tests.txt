@@ -1,0 +1,1504 @@
+TAP version 13
+# Subtest: login endpoint student / stored student
+ok 1 - login endpoint student / stored student
+  ---
+  duration_ms: 4.256761
+  type: 'test'
+  ...
+# Subtest: login endpoint student / stored client_admin
+ok 2 - login endpoint student / stored client_admin
+  ---
+  duration_ms: 2.583351
+  type: 'test'
+  ...
+# Subtest: login endpoint student / stored super_admin
+ok 3 - login endpoint student / stored super_admin
+  ---
+  duration_ms: 0.465888
+  type: 'test'
+  ...
+# Subtest: login endpoint client_admin / stored student
+ok 4 - login endpoint client_admin / stored student
+  ---
+  duration_ms: 0.444612
+  type: 'test'
+  ...
+# Subtest: login endpoint client_admin / stored client_admin
+ok 5 - login endpoint client_admin / stored client_admin
+  ---
+  duration_ms: 0.40333
+  type: 'test'
+  ...
+# Subtest: login endpoint client_admin / stored super_admin
+ok 6 - login endpoint client_admin / stored super_admin
+  ---
+  duration_ms: 0.366518
+  type: 'test'
+  ...
+# Subtest: login endpoint super_admin / stored student
+ok 7 - login endpoint super_admin / stored student
+  ---
+  duration_ms: 0.44806
+  type: 'test'
+  ...
+# Subtest: login endpoint super_admin / stored client_admin
+ok 8 - login endpoint super_admin / stored client_admin
+  ---
+  duration_ms: 0.333235
+  type: 'test'
+  ...
+# Subtest: login endpoint super_admin / stored super_admin
+ok 9 - login endpoint super_admin / stored super_admin
+  ---
+  duration_ms: 1.359591
+  type: 'test'
+  ...
+# Subtest: a correct admin password cannot authenticate at public student login
+ok 10 - a correct admin password cannot authenticate at public student login
+  ---
+  duration_ms: 0.997613
+  type: 'test'
+  ...
+# Subtest: blocked account rejected before session creation
+ok 11 - blocked account rejected before session creation
+  ---
+  duration_ms: 0.591775
+  type: 'test'
+  ...
+# Subtest: MFA-enabled admin must supply a code before session issuance
+ok 12 - MFA-enabled admin must supply a code before session issuance
+  ---
+  duration_ms: 0.321501
+  type: 'test'
+  ...
+# Subtest: invalid MFA does not create a session
+ok 13 - invalid MFA does not create a session
+  ---
+  duration_ms: 0.337711
+  type: 'test'
+  ...
+# Subtest: public registration ignores injected admin role, status and verification
+ok 14 - public registration ignores injected admin role, status and verification
+  ---
+  duration_ms: 1.976119
+  type: 'test'
+  ...
+# Subtest: SMTP failure does not delete a successfully registered account
+ok 15 - SMTP failure does not delete a successfully registered account
+  ---
+  duration_ms: 0.481263
+  type: 'test'
+  ...
+# Subtest: verification consumes a hashed token atomically
+ok 16 - verification consumes a hashed token atomically
+  ---
+  duration_ms: 0.477303
+  type: 'test'
+  ...
+# Subtest: business role gate rejects Super Admin even with a client portal header
+ok 17 - business role gate rejects Super Admin even with a client portal header
+  ---
+  duration_ms: 0.691234
+  type: 'test'
+  ...
+# Subtest: V44 shared cookie is not recognized as a V45 session
+ok 18 - V44 shared cookie is not recognized as a V45 session
+  ---
+  duration_ms: 0.843981
+  type: 'test'
+  ...
+# Subtest: a client-admin cookie cannot act as a student cookie
+ok 19 - a client-admin cookie cannot act as a student cookie
+  ---
+  duration_ms: 0.371807
+  type: 'test'
+  ...
+# Subtest: session issuer stores a hash and sets only the requested portal cookie
+ok 20 - session issuer stores a hash and sets only the requested portal cookie
+  ---
+  duration_ms: 1.067263
+  type: 'test'
+  ...
+# Subtest: business router grants only Client Admin at its root gate
+ok 21 - business router grants only Client Admin at its root gate
+  ---
+  duration_ms: 1.019172
+  type: 'test'
+  ...
+# Subtest: invoicing does not create payment or access
+ok 22 - invoicing does not create payment or access
+  ---
+  duration_ms: 7.688006
+  type: 'test'
+  ...
+# Subtest: replayed invoice request returns same record without duplicate
+ok 23 - replayed invoice request returns same record without duplicate
+  ---
+  duration_ms: 2.063108
+  type: 'test'
+  ...
+# Subtest: same request key with changed invoice rejects conflict
+ok 24 - same request key with changed invoice rejects conflict
+  ---
+  duration_ms: 1.490581
+  type: 'test'
+  ...
+# Subtest: standalone database refuses business writes before creating records
+ok 25 - standalone database refuses business writes before creating records
+  ---
+  duration_ms: 0.849095
+  type: 'test'
+  ...
+# Subtest: current password reconfirmation happens before a billing transaction
+ok 26 - current password reconfirmation happens before a billing transaction
+  ---
+  duration_ms: 0.4325
+  type: 'test'
+  ...
+# Subtest: blocked student cannot receive a new invoice
+ok 27 - blocked student cannot receive a new invoice
+  ---
+  duration_ms: 0.558723
+  type: 'test'
+  ...
+# Subtest: partial receipt updates cash ledger but not learning access
+ok 28 - partial receipt updates cash ledger but not learning access
+  ---
+  duration_ms: 1.997796
+  type: 'test'
+  ...
+# Subtest: full course receipt fulfills access only once
+ok 29 - full course receipt fulfills access only once
+  ---
+  duration_ms: 0.956527
+  type: 'test'
+  ...
+# Subtest: overpayment rejected without inserting a receipt
+ok 30 - overpayment rejected without inserting a receipt
+  ---
+  duration_ms: 1.0211
+  type: 'test'
+  ...
+# Subtest: payment on void invoice rejected
+ok 31 - payment on void invoice rejected
+  ---
+  duration_ms: 0.835299
+  type: 'test'
+  ...
+# Subtest: provider-managed funds are not simulated by manual receipt method
+ok 32 - provider-managed funds are not simulated by manual receipt method
+  ---
+  duration_ms: 0.424604
+  type: 'test'
+  ...
+# Subtest: refund ceiling prevents returning more than collected
+ok 33 - refund ceiling prevents returning more than collected
+  ---
+  duration_ms: 0.735632
+  type: 'test'
+  ...
+# Subtest: refund plus equal credit leaves fully settled invoice without new debt
+ok 34 - refund plus equal credit leaves fully settled invoice without new debt
+  ---
+  duration_ms: 0.681715
+  type: 'test'
+  ...
+# Subtest: replayed refund does not double count returned money
+ok 35 - replayed refund does not double count returned money
+  ---
+  duration_ms: 1.076056
+  type: 'test'
+  ...
+# Subtest: refund date cannot precede its receipt
+ok 36 - refund date cannot precede its receipt
+  ---
+  duration_ms: 0.57115
+  type: 'test'
+  ...
+# Subtest: provider refund is refused instead of falsely claiming a transfer
+ok 37 - provider refund is refused instead of falsely claiming a transfer
+  ---
+  duration_ms: 0.765374
+  type: 'test'
+  ...
+# Subtest: invoice with unreturned receipts cannot be voided
+ok 38 - invoice with unreturned receipts cannot be voided
+  ---
+  duration_ms: 0.652813
+  type: 'test'
+  ...
+# Subtest: empty unpaid invoice can be voided while its history remains
+ok 39 - empty unpaid invoice can be voided while its history remains
+  ---
+  duration_ms: 0.434026
+  type: 'test'
+  ...
+# Subtest: paid invoice due-date changes are refused
+ok 40 - paid invoice due-date changes are refused
+  ---
+  duration_ms: 0.382635
+  type: 'test'
+  ...
+# Subtest: free access adjustment cannot overwrite perpetual paid entitlement
+ok 41 - free access adjustment cannot overwrite perpetual paid entitlement
+  ---
+  duration_ms: 0.696626
+  type: 'test'
+  ...
+# Subtest: membership date correction changes access but creates no money
+ok 42 - membership date correction changes access but creates no money
+  ---
+  duration_ms: 0.618431
+  type: 'test'
+  ...
+# Subtest: reversed membership date correction rejected
+ok 43 - reversed membership date correction rejected
+  ---
+  duration_ms: 0.873838
+  type: 'test'
+  ...
+# Subtest: minor units exact: 0.01
+ok 44 - minor units exact: 0.01
+  ---
+  duration_ms: 3.364721
+  type: 'test'
+  ...
+# Subtest: minor units exact: 0.10
+ok 45 - minor units exact: 0.10
+  ---
+  duration_ms: 0.317036
+  type: 'test'
+  ...
+# Subtest: minor units exact: 1.23
+ok 46 - minor units exact: 1.23
+  ---
+  duration_ms: 0.090537
+  type: 'test'
+  ...
+# Subtest: minor units exact: 100
+ok 47 - minor units exact: 100
+  ---
+  duration_ms: 0.180832
+  type: 'test'
+  ...
+# Subtest: minor units exact: 999999999.99
+ok 48 - minor units exact: 999999999.99
+  ---
+  duration_ms: 0.089748
+  type: 'test'
+  ...
+# Subtest: minor units exact: 0.1
+ok 49 - minor units exact: 0.1
+  ---
+  duration_ms: 0.080235
+  type: 'test'
+  ...
+# Subtest: invalid amount rejected: "0"
+ok 50 - invalid amount rejected: "0"
+  ---
+  duration_ms: 0.786647
+  type: 'test'
+  ...
+# Subtest: invalid amount rejected: "-1"
+ok 51 - invalid amount rejected: "-1"
+  ---
+  duration_ms: 0.141036
+  type: 'test'
+  ...
+# Subtest: invalid amount rejected: "1.001"
+ok 52 - invalid amount rejected: "1.001"
+  ---
+  duration_ms: 0.461628
+  type: 'test'
+  ...
+# Subtest: invalid amount rejected: "1e3"
+ok 53 - invalid amount rejected: "1e3"
+  ---
+  duration_ms: 0.327748
+  type: 'test'
+  ...
+# Subtest: invalid amount rejected: "NaN"
+ok 54 - invalid amount rejected: "NaN"
+  ---
+  duration_ms: 0.300112
+  type: 'test'
+  ...
+# Subtest: invalid amount rejected: "Infinity"
+ok 55 - invalid amount rejected: "Infinity"
+  ---
+  duration_ms: 0.071283
+  type: 'test'
+  ...
+# Subtest: invalid amount rejected: "1000000000"
+ok 56 - invalid amount rejected: "1000000000"
+  ---
+  duration_ms: 0.060021
+  type: 'test'
+  ...
+# Subtest: invalid amount rejected: ""
+ok 57 - invalid amount rejected: ""
+  ---
+  duration_ms: 0.045608
+  type: 'test'
+  ...
+# Subtest: invalid amount rejected: null
+ok 58 - invalid amount rejected: null
+  ---
+  duration_ms: 0.085618
+  type: 'test'
+  ...
+# Subtest: invalid amount rejected: undefined
+ok 59 - invalid amount rejected: undefined
+  ---
+  duration_ms: 0.052893
+  type: 'test'
+  ...
+# Subtest: invalid amount rejected: {}
+ok 60 - invalid amount rejected: {}
+  ---
+  duration_ms: 0.042455
+  type: 'test'
+  ...
+# Subtest: invalid amount rejected: ["1"]
+ok 61 - invalid amount rejected: ["1"]
+  ---
+  duration_ms: 0.03874
+  type: 'test'
+  ...
+# Subtest: zero permitted only explicitly
+ok 62 - zero permitted only explicitly
+  ---
+  duration_ms: 0.255502
+  type: 'test'
+  ...
+# Subtest: currency allowlist USD
+ok 63 - currency allowlist USD
+  ---
+  duration_ms: 0.093639
+  type: 'test'
+  ...
+# Subtest: currency allowlist PKR
+ok 64 - currency allowlist PKR
+  ---
+  duration_ms: 0.070666
+  type: 'test'
+  ...
+# Subtest: currency allowlist EUR
+ok 65 - currency allowlist EUR
+  ---
+  duration_ms: 0.040459
+  type: 'test'
+  ...
+# Subtest: currency allowlist GBP
+ok 66 - currency allowlist GBP
+  ---
+  duration_ms: 0.034661
+  type: 'test'
+  ...
+# Subtest: currency allowlist CAD
+ok 67 - currency allowlist CAD
+  ---
+  duration_ms: 0.032287
+  type: 'test'
+  ...
+# Subtest: currency allowlist AUD
+ok 68 - currency allowlist AUD
+  ---
+  duration_ms: 0.030955
+  type: 'test'
+  ...
+# Subtest: unsupported currency cannot be combined or silently converted
+ok 69 - unsupported currency cannot be combined or silently converted
+  ---
+  duration_ms: 0.146026
+  type: 'test'
+  ...
+# Subtest: legacy amount reads major units, new amount reads minor units
+ok 70 - legacy amount reads major units, new amount reads minor units
+  ---
+  duration_ms: 0.108138
+  type: 'test'
+  ...
+# Subtest: manual receipt needs a verified admin-recorded origin
+ok 71 - manual receipt needs a verified admin-recorded origin
+  ---
+  duration_ms: 0.074513
+  type: 'test'
+  ...
+# Subtest: uncollected status excluded: pending
+ok 72 - uncollected status excluded: pending
+  ---
+  duration_ms: 0.046321
+  type: 'test'
+  ...
+# Subtest: uncollected status excluded: failed
+ok 73 - uncollected status excluded: failed
+  ---
+  duration_ms: 0.034132
+  type: 'test'
+  ...
+# Subtest: uncollected status excluded: cancelled
+ok 74 - uncollected status excluded: cancelled
+  ---
+  duration_ms: 0.035499
+  type: 'test'
+  ...
+# Subtest: paid alone, arbitrary provider, invalid amount excluded
+ok 75 - paid alone, arbitrary provider, invalid amount excluded
+  ---
+  duration_ms: 0.049519
+  type: 'test'
+  ...
+# Subtest: verified provider history recognized without fabricating a webhook
+ok 76 - verified provider history recognized without fabricating a webhook
+  ---
+  duration_ms: 0.042235
+  type: 'test'
+  ...
+# Subtest: strict calendar date rejected 2026-02-29
+ok 77 - strict calendar date rejected 2026-02-29
+  ---
+  duration_ms: 0.735868
+  type: 'test'
+  ...
+# Subtest: strict calendar date rejected 2026-13-01
+ok 78 - strict calendar date rejected 2026-13-01
+  ---
+  duration_ms: 0.114425
+  type: 'test'
+  ...
+# Subtest: strict calendar date rejected 09/26/2026
+ok 79 - strict calendar date rejected 09/26/2026
+  ---
+  duration_ms: 0.064815
+  type: 'test'
+  ...
+# Subtest: strict calendar date rejected 2026-09-26T00:00:00Z
+ok 80 - strict calendar date rejected 2026-09-26T00:00:00Z
+  ---
+  duration_ms: 0.044016
+  type: 'test'
+  ...
+# Subtest: valid leap day round-trip
+ok 81 - valid leap day round-trip
+  ---
+  duration_ms: 0.077701
+  type: 'test'
+  ...
+# Subtest: due date includes full UTC calendar day
+ok 82 - due date includes full UTC calendar day
+  ---
+  duration_ms: 0.074868
+  type: 'test'
+  ...
+# Subtest: month expiry clamps 2024-01-31+1
+ok 83 - month expiry clamps 2024-01-31+1
+  ---
+  duration_ms: 0.198503
+  type: 'test'
+  ...
+# Subtest: month expiry clamps 2026-01-31+1
+ok 84 - month expiry clamps 2026-01-31+1
+  ---
+  duration_ms: 0.052644
+  type: 'test'
+  ...
+# Subtest: month expiry clamps 2024-02-29+12
+ok 85 - month expiry clamps 2024-02-29+12
+  ---
+  duration_ms: 0.037829
+  type: 'test'
+  ...
+# Subtest: month expiry clamps 2026-12-31+2
+ok 86 - month expiry clamps 2026-12-31+2
+  ---
+  duration_ms: 0.037045
+  type: 'test'
+  ...
+# Subtest: invalid term duration rejected
+ok 87 - invalid term duration rejected
+  ---
+  duration_ms: 0.373451
+  type: 'test'
+  ...
+# Subtest: day-based course expiry exact
+ok 88 - day-based course expiry exact
+  ---
+  duration_ms: 0.125639
+  type: 'test'
+  ...
+# Subtest: report inclusive UTC dates become exclusive upper bound
+ok 89 - report inclusive UTC dates become exclusive upper bound
+  ---
+  duration_ms: 0.313124
+  type: 'test'
+  ...
+# Subtest: default report is 30 UTC days
+ok 90 - default report is 30 UTC days
+  ---
+  duration_ms: 0.32749
+  type: 'test'
+  ...
+# Subtest: report rejects reversed or oversized periods
+ok 91 - report rejects reversed or oversized periods
+  ---
+  duration_ms: 0.133473
+  type: 'test'
+  ...
+# Subtest: pagination enforces integer bounded inputs
+ok 92 - pagination enforces integer bounded inputs
+  ---
+  duration_ms: 0.88752
+  type: 'test'
+  ...
+# Subtest: search uses literal regex and refuses objects
+ok 93 - search uses literal regex and refuses objects
+  ---
+  duration_ms: 0.279058
+  type: 'test'
+  ...
+# Subtest: membership effective state active
+ok 94 - membership effective state active
+  ---
+  duration_ms: 0.107663
+  type: 'test'
+  ...
+# Subtest: membership effective state expired
+ok 95 - membership effective state expired
+  ---
+  duration_ms: 0.041613
+  type: 'test'
+  ...
+# Subtest: membership effective state scheduled
+ok 96 - membership effective state scheduled
+  ---
+  duration_ms: 0.147026
+  type: 'test'
+  ...
+# Subtest: membership effective state cancelled
+ok 97 - membership effective state cancelled
+  ---
+  duration_ms: 0.036018
+  type: 'test'
+  ...
+# Subtest: membership effective state past_due
+ok 98 - membership effective state past_due
+  ---
+  duration_ms: 0.035097
+  type: 'test'
+  ...
+# Subtest: membership effective state needs_review
+ok 99 - membership effective state needs_review
+  ---
+  duration_ms: 0.03338
+  type: 'test'
+  ...
+# Subtest: membership effective state needs_review
+ok 100 - membership effective state needs_review
+  ---
+  duration_ms: 0.038109
+  type: 'test'
+  ...
+# Subtest: subscription expiry does not invent a billing due date
+ok 101 - subscription expiry does not invent a billing due date
+  ---
+  duration_ms: 0.163211
+  type: 'test'
+  ...
+# Subtest: enrollment preserves no-expiry access but requires a start
+ok 102 - enrollment preserves no-expiry access but requires a start
+  ---
+  duration_ms: 0.11186
+  type: 'test'
+  ...
+# Subtest: invoice lifecycle open
+ok 103 - invoice lifecycle open
+  ---
+  duration_ms: 0.07563
+  type: 'test'
+  ...
+# Subtest: invoice lifecycle partial
+ok 104 - invoice lifecycle partial
+  ---
+  duration_ms: 0.036593
+  type: 'test'
+  ...
+# Subtest: invoice lifecycle paid
+ok 105 - invoice lifecycle paid
+  ---
+  duration_ms: 0.031167
+  type: 'test'
+  ...
+# Subtest: invoice lifecycle overdue
+ok 106 - invoice lifecycle overdue
+  ---
+  duration_ms: 0.030237
+  type: 'test'
+  ...
+# Subtest: invoice lifecycle void
+ok 107 - invoice lifecycle void
+  ---
+  duration_ms: 0.028285
+  type: 'test'
+  ...
+# Subtest: invoice lifecycle needs_review
+ok 108 - invoice lifecycle needs_review
+  ---
+  duration_ms: 0.028801
+  type: 'test'
+  ...
+# Subtest: refund credit does not fabricate replacement debt
+ok 109 - refund credit does not fabricate replacement debt
+  ---
+  duration_ms: 0.074235
+  type: 'test'
+  ...
+# Subtest: outstanding subtracts original gross applied cash once
+ok 110 - outstanding subtracts original gross applied cash once
+  ---
+  duration_ms: 0.044888
+  type: 'test'
+  ...
+# Subtest: voided invoice no longer outstanding
+ok 111 - voided invoice no longer outstanding
+  ---
+  duration_ms: 0.039219
+  type: 'test'
+  ...
+# Subtest: days remaining may be negative and never guessed
+ok 112 - days remaining may be negative and never guessed
+  ---
+  duration_ms: 0.064376
+  type: 'test'
+  ...
+# Subtest: CSV neutralizes formula-leading user text and quotes
+ok 113 - CSV neutralizes formula-leading user text and quotes
+  ---
+  duration_ms: 0.839702
+  type: 'test'
+  ...
+# Subtest: write idempotency key has bounded validated shape
+ok 114 - write idempotency key has bounded validated shape
+  ---
+  duration_ms: 0.219365
+  type: 'test'
+  ...
+# Subtest: stable request fingerprint independent of object key order
+ok 115 - stable request fingerprint independent of object key order
+  ---
+  duration_ms: 0.220675
+  type: 'test'
+  ...
+# Subtest: admin role accepted: client_admin
+ok 116 - admin role accepted: client_admin
+  ---
+  duration_ms: 2.505204
+  type: 'test'
+  ...
+# Subtest: admin role accepted: admin
+ok 117 - admin role accepted: admin
+  ---
+  duration_ms: 0.125806
+  type: 'test'
+  ...
+# Subtest: admin role accepted: administrator
+ok 118 - admin role accepted: administrator
+  ---
+  duration_ms: 0.255663
+  type: 'test'
+  ...
+# Subtest: admin role accepted: client-admin
+ok 119 - admin role accepted: client-admin
+  ---
+  duration_ms: 0.0959
+  type: 'test'
+  ...
+# Subtest: admin role accepted: super_admin
+ok 120 - admin role accepted: super_admin
+  ---
+  duration_ms: 0.079286
+  type: 'test'
+  ...
+# Subtest: admin role accepted: superadmin
+ok 121 - admin role accepted: superadmin
+  ---
+  duration_ms: 0.074978
+  type: 'test'
+  ...
+# Subtest: student role denied CMS access
+ok 122 - student role denied CMS access
+  ---
+  duration_ms: 0.136261
+  type: 'test'
+  ...
+# Subtest: client admin creates an event with generated slug
+ok 123 - client admin creates an event with generated slug
+  ---
+  duration_ms: 1.877884
+  type: 'test'
+  ...
+# Subtest: client admin can create team members
+ok 124 - client admin can create team members
+  ---
+  duration_ms: 1.430537
+  type: 'test'
+  ...
+# Subtest: reviews cannot be fabricated through admin Add
+ok 125 - reviews cannot be fabricated through admin Add
+  ---
+  duration_ms: 1.390616
+  type: 'test'
+  ...
+# Subtest: client admin cannot modify footer settings
+ok 126 - client admin cannot modify footer settings
+  ---
+  duration_ms: 0.563983
+  type: 'test'
+  ...
+# Subtest: client admin can save Academy Plans
+ok 127 - client admin can save Academy Plans
+  ---
+  duration_ms: 0.603425
+  type: 'test'
+  ...
+# Subtest: super admin can save footer settings
+ok 128 - super admin can save footer settings
+  ---
+  duration_ms: 1.562572
+  type: 'test'
+  ...
+# Subtest: new lessons default to draft
+ok 129 - new lessons default to draft
+  ---
+  duration_ms: 0.827001
+  type: 'test'
+  ...
+# Subtest: purchased course deletion is blocked
+ok 130 - purchased course deletion is blocked
+  ---
+  duration_ms: 0.512239
+  type: 'test'
+  ...
+# Subtest: invalid record identifier rejected before database use
+ok 131 - invalid record identifier rejected before database use
+  ---
+  duration_ms: 0.476786
+  type: 'test'
+  ...
+# Subtest: cross-parent curriculum reorder rejected
+ok 132 - cross-parent curriculum reorder rejected
+  ---
+  duration_ms: 0.554246
+  type: 'test'
+  ...
+# Subtest: valid curriculum reorder keeps parent filter
+ok 133 - valid curriculum reorder keeps parent filter
+  ---
+  duration_ms: 0.440869
+  type: 'test'
+  ...
+# Subtest: testing route guard: production, flag=true
+ok 134 - testing route guard: production, flag=true
+  ---
+  duration_ms: 0.265145
+  type: 'test'
+  ...
+# Subtest: testing route guard: development, flag=false
+ok 135 - testing route guard: development, flag=false
+  ---
+  duration_ms: 0.617758
+  type: 'test'
+  ...
+# Subtest: testing route guard: development, flag=true
+ok 136 - testing route guard: development, flag=true
+  ---
+  duration_ms: 0.133471
+  type: 'test'
+  ...
+# Subtest: admin can preview uploaded media before publishing
+ok 137 - admin can preview uploaded media before publishing
+  ---
+  duration_ms: 0.565248
+  type: 'test'
+  ...
+# Subtest: published course cover is public
+ok 138 - published course cover is public
+  ---
+  duration_ms: 0.489349
+  type: 'test'
+  ...
+# Subtest: unreferenced media is not public
+ok 139 - unreferenced media is not public
+  ---
+  duration_ms: 0.203718
+  type: 'test'
+  ...
+# Subtest: paid lesson media denied to guests
+ok 140 - paid lesson media denied to guests
+  ---
+  duration_ms: 0.271982
+  type: 'test'
+  ...
+# Subtest: paid lesson media denied without an entitlement
+ok 141 - paid lesson media denied without an entitlement
+  ---
+  duration_ms: 0.317722
+  type: 'test'
+  ...
+# Subtest: enrolled student can access paid lesson media
+ok 142 - enrolled student can access paid lesson media
+  ---
+  duration_ms: 0.212864
+  type: 'test'
+  ...
+# Subtest: active academy member can access paid lesson media
+ok 143 - active academy member can access paid lesson media
+  ---
+  duration_ms: 0.20076
+  type: 'test'
+  ...
+# Subtest: published preview lesson media is public
+ok 144 - published preview lesson media is public
+  ---
+  duration_ms: 0.173277
+  type: 'test'
+  ...
+# Subtest: media under an unpublished course remains hidden
+ok 145 - media under an unpublished course remains hidden
+  ---
+  duration_ms: 0.334458
+  type: 'test'
+  ...
+# Subtest: event slug generated from title
+ok 146 - event slug generated from title
+  ---
+  duration_ms: 2.11525
+  type: 'test'
+  ...
+# Subtest: team slug generated from member name
+ok 147 - team slug generated from member name
+  ---
+  duration_ms: 1.153082
+  type: 'test'
+  ...
+# Subtest: slug strips accents and punctuation
+ok 148 - slug strips accents and punctuation
+  ---
+  duration_ms: 0.891586
+  type: 'test'
+  ...
+# Subtest: blank titles rejected
+ok 149 - blank titles rejected
+  ---
+  duration_ms: 0.995685
+  type: 'test'
+  ...
+# Subtest: course slug cannot break existing entitlements
+ok 150 - course slug cannot break existing entitlements
+  ---
+  duration_ms: 0.320397
+  type: 'test'
+  ...
+# Subtest: course title remains editable with locked slug
+ok 151 - course title remains editable with locked slug
+  ---
+  duration_ms: 0.346851
+  type: 'test'
+  ...
+# Subtest: database operators and metadata stripped
+ok 152 - database operators and metadata stripped
+  ---
+  duration_ms: 1.107864
+  type: 'test'
+  ...
+# Subtest: module parent cannot be reassigned through update
+ok 153 - module parent cannot be reassigned through update
+  ---
+  duration_ms: 0.233358
+  type: 'test'
+  ...
+# Subtest: malformed dates rejected
+ok 154 - malformed dates rejected
+  ---
+  duration_ms: 0.691111
+  type: 'test'
+  ...
+# Subtest: date is stored with explicit timezone
+ok 155 - date is stored with explicit timezone
+  ---
+  duration_ms: 0.925361
+  type: 'test'
+  ...
+# Subtest: clear event date
+ok 156 - clear event date
+  ---
+  duration_ms: 0.313193
+  type: 'test'
+  ...
+# Subtest: javascript links blocked
+ok 157 - javascript links blocked
+  ---
+  duration_ms: 0.362213
+  type: 'test'
+  ...
+# Subtest: protocol-relative links blocked
+ok 158 - protocol-relative links blocked
+  ---
+  duration_ms: 0.359587
+  type: 'test'
+  ...
+# Subtest: URLs with embedded credentials blocked
+ok 159 - URLs with embedded credentials blocked
+  ---
+  duration_ms: 0.222538
+  type: 'test'
+  ...
+# Subtest: safe media path allowed
+ok 160 - safe media path allowed
+  ---
+  duration_ms: 0.100672
+  type: 'test'
+  ...
+# Subtest: nested resource links validated
+ok 161 - nested resource links validated
+  ---
+  duration_ms: 0.27805
+  type: 'test'
+  ...
+# Subtest: negative prices rejected
+ok 162 - negative prices rejected
+  ---
+  duration_ms: 0.172877
+  type: 'test'
+  ...
+# Subtest: zero-price course preserved
+ok 163 - zero-price course preserved
+  ---
+  duration_ms: 0.53074
+  type: 'test'
+  ...
+# Subtest: null sale price preserved
+ok 164 - null sale price preserved
+  ---
+  duration_ms: 0.133694
+  type: 'test'
+  ...
+# Subtest: boolean strings rejected instead of accidentally publishing
+ok 165 - boolean strings rejected instead of accidentally publishing
+  ---
+  duration_ms: 0.300204
+  type: 'test'
+  ...
+# Subtest: multiple choice requires at least two options
+ok 166 - multiple choice requires at least two options
+  ---
+  duration_ms: 0.33413
+  type: 'test'
+  ...
+# Subtest: valid question survives validation
+ok 167 - valid question survives validation
+  ---
+  duration_ms: 0.140726
+  type: 'test'
+  ...
+# Subtest: plan validates name and duration
+ok 168 - plan validates name and duration
+  ---
+  duration_ms: 0.322227
+  type: 'test'
+  ...
+# Subtest: duplicate plan identifiers rejected
+ok 169 - duplicate plan identifiers rejected
+  ---
+  duration_ms: 0.236772
+  type: 'test'
+  ...
+# Subtest: hidden plan remains hidden
+ok 170 - hidden plan remains hidden
+  ---
+  duration_ms: 0.121792
+  type: 'test'
+  ...
+# Subtest: footer only accepts supported platforms
+ok 171 - footer only accepts supported platforms
+  ---
+  duration_ms: 0.283601
+  type: 'test'
+  ...
+# Subtest: private settings are not editable
+ok 172 - private settings are not editable
+  ---
+  duration_ms: 0.289975
+  type: 'test'
+  ...
+# Subtest: normal byte range
+ok 173 - normal byte range
+  ---
+  duration_ms: 0.23757
+  type: 'test'
+  ...
+# Subtest: suffix range returns last bytes, not an inverted range
+ok 174 - suffix range returns last bytes, not an inverted range
+  ---
+  duration_ms: 0.146155
+  type: 'test'
+  ...
+# Subtest: open-ended byte range
+ok 175 - open-ended byte range
+  ---
+  duration_ms: 0.331186
+  type: 'test'
+  ...
+# Subtest: oversized suffix returns entire file
+ok 176 - oversized suffix returns entire file
+  ---
+  duration_ms: 0.207836
+  type: 'test'
+  ...
+# Subtest: range end clamps to file size
+ok 177 - range end clamps to file size
+  ---
+  duration_ms: 0.138336
+  type: 'test'
+  ...
+# Subtest: unsatisfiable and malformed ranges rejected
+ok 178 - unsatisfiable and malformed ranges rejected
+  ---
+  duration_ms: 0.226778
+  type: 'test'
+  ...
+# Subtest: legacy annual plans retain 12-month access
+ok 179 - legacy annual plans retain 12-month access
+  ---
+  duration_ms: 0.154373
+  type: 'test'
+  ...
+# Subtest: empty media identifiers are normalized to null for image removal
+ok 180 - empty media identifiers are normalized to null for image removal
+  ---
+  duration_ms: 0.209761
+  type: 'test'
+  ...
+# Subtest: footer URLs must be absolute HTTP(S) links
+ok 181 - footer URLs must be absolute HTTP(S) links
+  ---
+  duration_ms: 0.359637
+  type: 'test'
+  ...
+# Subtest: null question rejected with validation status
+ok 182 - null question rejected with validation status
+  ---
+  duration_ms: 0.255298
+  type: 'test'
+  ...
+# Subtest: null price option rejected with validation status
+ok 183 - null price option rejected with validation status
+  ---
+  duration_ms: 0.28725
+  type: 'test'
+  ...
+# Subtest: portal student allows only its own role (student)
+ok 184 - portal student allows only its own role (student)
+  ---
+  duration_ms: 1.77842
+  type: 'test'
+  ...
+# Subtest: portal student allows only its own role (client_admin)
+ok 185 - portal student allows only its own role (client_admin)
+  ---
+  duration_ms: 0.224419
+  type: 'test'
+  ...
+# Subtest: portal student allows only its own role (super_admin)
+ok 186 - portal student allows only its own role (super_admin)
+  ---
+  duration_ms: 0.246228
+  type: 'test'
+  ...
+# Subtest: portal client_admin allows only its own role (student)
+ok 187 - portal client_admin allows only its own role (student)
+  ---
+  duration_ms: 0.114115
+  type: 'test'
+  ...
+# Subtest: portal client_admin allows only its own role (client_admin)
+ok 188 - portal client_admin allows only its own role (client_admin)
+  ---
+  duration_ms: 0.108349
+  type: 'test'
+  ...
+# Subtest: portal client_admin allows only its own role (super_admin)
+ok 189 - portal client_admin allows only its own role (super_admin)
+  ---
+  duration_ms: 0.087983
+  type: 'test'
+  ...
+# Subtest: portal super_admin allows only its own role (student)
+ok 190 - portal super_admin allows only its own role (student)
+  ---
+  duration_ms: 0.192198
+  type: 'test'
+  ...
+# Subtest: portal super_admin allows only its own role (client_admin)
+ok 191 - portal super_admin allows only its own role (client_admin)
+  ---
+  duration_ms: 0.133227
+  type: 'test'
+  ...
+# Subtest: portal super_admin allows only its own role (super_admin)
+ok 192 - portal super_admin allows only its own role (super_admin)
+  ---
+  duration_ms: 0.249822
+  type: 'test'
+  ...
+# Subtest: unknown role cannot elevate ""
+ok 193 - unknown role cannot elevate ""
+  ---
+  duration_ms: 0.346871
+  type: 'test'
+  ...
+# Subtest: unknown role cannot elevate null
+ok 194 - unknown role cannot elevate null
+  ---
+  duration_ms: 0.10655
+  type: 'test'
+  ...
+# Subtest: unknown role cannot elevate {}
+ok 195 - unknown role cannot elevate {}
+  ---
+  duration_ms: 0.093419
+  type: 'test'
+  ...
+# Subtest: unknown role cannot elevate "instructor"
+ok 196 - unknown role cannot elevate "instructor"
+  ---
+  duration_ms: 0.039388
+  type: 'test'
+  ...
+# Subtest: unknown role cannot elevate "owner"
+ok 197 - unknown role cannot elevate "owner"
+  ---
+  duration_ms: 0.034217
+  type: 'test'
+  ...
+# Subtest: header selector cannot fall back from an invalid portal
+ok 198 - header selector cannot fall back from an invalid portal
+  ---
+  duration_ms: 0.09995
+  type: 'test'
+  ...
+# Subtest: each role has a distinct cookie; cookies are HttpOnly
+ok 199 - each role has a distinct cookie; cookies are HttpOnly
+  ---
+  duration_ms: 0.103558
+  type: 'test'
+  ...
+# Subtest: opaque tokens are independent 256-bit random values stored as hashes
+ok 200 - opaque tokens are independent 256-bit random values stored as hashes
+  ---
+  duration_ms: 1.022751
+  type: 'test'
+  ...
+# Subtest: matching current session accepted
+ok 201 - matching current session accepted
+  ---
+  duration_ms: 1.030965
+  type: 'test'
+  ...
+# Subtest: session rejected: wrong portal
+ok 202 - session rejected: wrong portal
+  ---
+  duration_ms: 0.094529
+  type: 'test'
+  ...
+# Subtest: session rejected: wrong subject
+ok 203 - session rejected: wrong subject
+  ---
+  duration_ms: 0.038411
+  type: 'test'
+  ...
+# Subtest: session rejected: revoked
+ok 204 - session rejected: revoked
+  ---
+  duration_ms: 0.032776
+  type: 'test'
+  ...
+# Subtest: session rejected: expired
+ok 205 - session rejected: expired
+  ---
+  duration_ms: 0.037239
+  type: 'test'
+  ...
+# Subtest: session rejected: idle
+ok 206 - session rejected: idle
+  ---
+  duration_ms: 0.036487
+  type: 'test'
+  ...
+# Subtest: session rejected: password reset
+ok 207 - session rejected: password reset
+  ---
+  duration_ms: 1.346225
+  type: 'test'
+  ...
+# Subtest: session rejected: blocked
+ok 208 - session rejected: blocked
+  ---
+  duration_ms: 0.078334
+  type: 'test'
+  ...
+# Subtest: admin hard lifetime 8h and idle limit 30m
+ok 209 - admin hard lifetime 8h and idle limit 30m
+  ---
+  duration_ms: 0.256913
+  type: 'test'
+  ...
+# Subtest: public user serializer excludes all credentials and internal notes
+ok 210 - public user serializer excludes all credentials and internal notes
+  ---
+  duration_ms: 0.166668
+  type: 'test'
+  ...
+# Subtest: new passwords require 12 characters and limit bcrypt UTF8 bytes
+ok 211 - new passwords require 12 characters and limit bcrypt UTF8 bytes
+  ---
+  duration_ms: 0.141911
+  type: 'test'
+  ...
+# Subtest: email object injection cannot reach a database filter
+ok 212 - email object injection cannot reach a database filter
+  ---
+  duration_ms: 0.060749
+  type: 'test'
+  ...
+# Subtest: unsafe student next rejected https://evil.test
+ok 213 - unsafe student next rejected https://evil.test
+  ---
+  duration_ms: 0.216786
+  type: 'test'
+  ...
+# Subtest: unsafe student next rejected //evil.test
+ok 214 - unsafe student next rejected //evil.test
+  ---
+  duration_ms: 0.045986
+  type: 'test'
+  ...
+# Subtest: unsafe student next rejected /\\evil.test
+ok 215 - unsafe student next rejected /\\evil.test
+  ---
+  duration_ms: 0.0613
+  type: 'test'
+  ...
+# Subtest: unsafe student next rejected /%2f%2fevil.test
+ok 216 - unsafe student next rejected /%2f%2fevil.test
+  ---
+  duration_ms: 0.051055
+  type: 'test'
+  ...
+# Subtest: unsafe student next rejected /admin
+ok 217 - unsafe student next rejected /admin
+  ---
+  duration_ms: 0.145612
+  type: 'test'
+  ...
+# Subtest: unsafe student next rejected /x/../admin
+ok 218 - unsafe student next rejected /x/../admin
+  ---
+  duration_ms: 0.069806
+  type: 'test'
+  ...
+# Subtest: unsafe student next rejected /%61dmin/login
+ok 219 - unsafe student next rejected /%61dmin/login
+  ---
+  duration_ms: 0.05713
+  type: 'test'
+  ...
+# Subtest: unsafe student next rejected /super-admin?x=1
+ok 220 - unsafe student next rejected /super-admin?x=1
+  ---
+  duration_ms: 0.073452
+  type: 'test'
+  ...
+# Subtest: unsafe student next rejected /SUPER-ADMIN
+ok 221 - unsafe student next rejected /SUPER-ADMIN
+  ---
+  duration_ms: 0.042582
+  type: 'test'
+  ...
+# Subtest: unsafe student next rejected /%00evil
+ok 222 - unsafe student next rejected /%00evil
+  ---
+  duration_ms: 0.034588
+  type: 'test'
+  ...
+# Subtest: safe student target preserved
+ok 223 - safe student target preserved
+  ---
+  duration_ms: 0.124962
+  type: 'test'
+  ...
+# Subtest: same-origin custom-header write allowed
+ok 224 - same-origin custom-header write allowed
+  ---
+  duration_ms: 0.101525
+  type: 'test'
+  ...
+# Subtest: CSRF write rejected {"marker":null}
+ok 225 - CSRF write rejected {"marker":null}
+  ---
+  duration_ms: 0.22072
+  type: 'test'
+  ...
+# Subtest: CSRF write rejected {"origin":"https://evil.test"}
+ok 226 - CSRF write rejected {"origin":"https://evil.test"}
+  ---
+  duration_ms: 0.044086
+  type: 'test'
+  ...
+# Subtest: CSRF write rejected {"fetchSite":"cross-site"}
+ok 227 - CSRF write rejected {"fetchSite":"cross-site"}
+  ---
+  duration_ms: 0.061259
+  type: 'test'
+  ...
+# Subtest: CSRF write rejected {"origin":null,"referer":"broken"}
+ok 228 - CSRF write rejected {"origin":null,"referer":"broken"}
+  ---
+  duration_ms: 0.195904
+  type: 'test'
+  ...
+# Subtest: originless CLI still needs custom header
+ok 229 - originless CLI still needs custom header
+  ---
+  duration_ms: 0.079113
+  type: 'test'
+  ...
+# Subtest: safe reads permitted without write marker
+ok 230 - safe reads permitted without write marker
+  ---
+  duration_ms: 0.044265
+  type: 'test'
+  ...
+# Subtest: RFC4226 HOTP vector 0
+ok 231 - RFC4226 HOTP vector 0
+  ---
+  duration_ms: 1.187558
+  type: 'test'
+  ...
+# Subtest: RFC4226 HOTP vector 1
+ok 232 - RFC4226 HOTP vector 1
+  ---
+  duration_ms: 0.274877
+  type: 'test'
+  ...
+# Subtest: RFC4226 HOTP vector 2
+ok 233 - RFC4226 HOTP vector 2
+  ---
+  duration_ms: 0.078167
+  type: 'test'
+  ...
+# Subtest: RFC4226 HOTP vector 3
+ok 234 - RFC4226 HOTP vector 3
+  ---
+  duration_ms: 0.05756
+  type: 'test'
+  ...
+# Subtest: RFC4226 HOTP vector 4
+ok 235 - RFC4226 HOTP vector 4
+  ---
+  duration_ms: 0.050085
+  type: 'test'
+  ...
+# Subtest: RFC4226 HOTP vector 5
+ok 236 - RFC4226 HOTP vector 5
+  ---
+  duration_ms: 0.047179
+  type: 'test'
+  ...
+# Subtest: RFC4226 HOTP vector 6
+ok 237 - RFC4226 HOTP vector 6
+  ---
+  duration_ms: 0.047545
+  type: 'test'
+  ...
+# Subtest: RFC4226 HOTP vector 7
+ok 238 - RFC4226 HOTP vector 7
+  ---
+  duration_ms: 0.273839
+  type: 'test'
+  ...
+# Subtest: RFC4226 HOTP vector 8
+ok 239 - RFC4226 HOTP vector 8
+  ---
+  duration_ms: 0.182658
+  type: 'test'
+  ...
+# Subtest: RFC4226 HOTP vector 9
+ok 240 - RFC4226 HOTP vector 9
+  ---
+  duration_ms: 0.099919
+  type: 'test'
+  ...
+# Subtest: RFC6238 SHA1 vector 59
+ok 241 - RFC6238 SHA1 vector 59
+  ---
+  duration_ms: 0.102925
+  type: 'test'
+  ...
+# Subtest: RFC6238 SHA1 vector 1111111109
+ok 242 - RFC6238 SHA1 vector 1111111109
+  ---
+  duration_ms: 0.172829
+  type: 'test'
+  ...
+# Subtest: RFC6238 SHA1 vector 1111111111
+ok 243 - RFC6238 SHA1 vector 1111111111
+  ---
+  duration_ms: 0.059447
+  type: 'test'
+  ...
+# Subtest: RFC6238 SHA1 vector 1234567890
+ok 244 - RFC6238 SHA1 vector 1234567890
+  ---
+  duration_ms: 0.045494
+  type: 'test'
+  ...
+# Subtest: RFC6238 SHA1 vector 2000000000
+ok 245 - RFC6238 SHA1 vector 2000000000
+  ---
+  duration_ms: 0.051983
+  type: 'test'
+  ...
+# Subtest: RFC6238 SHA1 vector 20000000000
+ok 246 - RFC6238 SHA1 vector 20000000000
+  ---
+  duration_ms: 0.180307
+  type: 'test'
+  ...
+# Subtest: TOTP accepts small clock skew but prevents already-consumed step
+ok 247 - TOTP accepts small clock skew but prevents already-consumed step
+  ---
+  duration_ms: 0.389318
+  type: 'test'
+  ...
+# Subtest: Base32 round-trip does not corrupt random secrets
+ok 248 - Base32 round-trip does not corrupt random secrets
+  ---
+  duration_ms: 1.618469
+  type: 'test'
+  ...
+# Subtest: MFA encryption round-trips and rejects ciphertext modification
+ok 249 - MFA encryption round-trips and rejects ciphertext modification
+  ---
+  duration_ms: 2.438826
+  type: 'test'
+  ...
+1..249
+# tests 249
+# suites 0
+# pass 249
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 324.392074

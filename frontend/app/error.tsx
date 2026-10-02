@@ -1,0 +1,2 @@
+ 'use client';
+export default function ErrorPage({reset}:{error:Error&{digest?:string};reset:()=>void}){return <main className="siteStatus" role="alert"><h1>This page could not load.</h1><p>Please try again. A payment or access change should be checked in your records before you repeat it.</p><button type="button" className="button" onClick={reset}>Try again</button><a href="/">Return to Singh Academy</a></main>;}

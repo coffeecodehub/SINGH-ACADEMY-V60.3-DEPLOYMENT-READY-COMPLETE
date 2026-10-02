@@ -1,0 +1,1 @@
+export default function Loading(){return <main className="siteStatus" aria-busy="true" role="status"><span className="siteSpinner"/><h1>Loading your academy…</h1><p>Your workspace will be ready shortly.</p></main>;}

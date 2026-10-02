@@ -1,0 +1,15 @@
+{
+  "pages": 1,
+  "page_size_pt": [
+    0.0,
+    0.0,
+    841.8900146484375,
+    595.280029296875
+  ],
+  "bytes": 12596,
+  "contains_sample_notice": true,
+  "contains_certificate_number": true,
+  "links": 1,
+  "renderer": "PyMuPDF",
+  "inspection": "Raster render and extracted sample text reviewed; not an issued database record."
+}

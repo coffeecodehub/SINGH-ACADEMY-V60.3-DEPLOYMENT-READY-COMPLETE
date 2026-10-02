@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "json": 10,
+    "yaml": 4,
+    "backend_relative_imports": 256,
+    "orchestration_syntax": 7
+  },
+  "original_public_files_preserved": 74,
+  "original_public_files_count": 74,
+  "errors": [],
+  "scope": "File/syntax/config structure checks, not dependency resolution, container validation or live integration."
+}

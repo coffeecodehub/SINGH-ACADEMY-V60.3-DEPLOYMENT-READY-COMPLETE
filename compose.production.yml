@@ -1,0 +1,65 @@
+# Docker Compose v2.30+; current images must be scanned and optionally digest-pinned before release.
+name: singh-academy
+services:
+  gateway:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports: ["80:80", "443:443", "443:443/udp"]
+    environment:
+      DOMAIN: ${DOMAIN:?Set DOMAIN in .env.deploy}
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      backend: {condition: service_healthy}
+      frontend: {condition: service_healthy}
+    networks: [edge, app]
+    security_opt: ["no-new-privileges:true"]
+    logging: {driver: json-file, options: {max-size: "10m", max-file: "3"}}
+  frontend:
+    build: ./frontend
+    restart: unless-stopped
+    init: true
+    read_only: true
+    tmpfs: ["/tmp:size=128m,mode=1777"]
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    networks: [app]
+    mem_limit: 768m
+    pids_limit: 160
+    logging: {driver: json-file, options: {max-size: "10m", max-file: "3"}}
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    init: true
+    env_file:
+      - path: ./backend/.env.production
+        format: raw
+    read_only: true
+    tmpfs: ["/tmp:size=768m,mode=1777"]
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    networks: [app, outbound]
+    mem_limit: 1024m
+    pids_limit: 180
+    depends_on: [scanner]
+    logging: {driver: json-file, options: {max-size: "10m", max-file: "3"}}
+  scanner:
+    image: clamav/clamav:stable
+    restart: unless-stopped
+    volumes:
+      - ./deploy/clamd.conf:/etc/clamav/clamd.conf:ro
+      - clamav_db:/var/lib/clamav
+    networks: [app, outbound]
+    mem_limit: 2048m
+    pids_limit: 128
+    logging: {driver: json-file, options: {max-size: "10m", max-file: "3"}}
+networks:
+  edge: {}
+  app: {internal: true}
+  outbound: {}
+volumes:
+  caddy_data: {}
+  caddy_config: {}
+  clamav_db: {}

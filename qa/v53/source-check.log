@@ -1,0 +1,5 @@
+Frontend: 88 TS/TSX files parsed.
+Backend: 136 JavaScript files checked.
+Relative frontend imports checked: 223.
+Syntax/import errors: 0.
+Scope: syntax and local file resolution only; dependency types, MongoDB, browsers and production build are not verified here.

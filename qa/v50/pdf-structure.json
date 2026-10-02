@@ -1,0 +1,35 @@
+[
+  {
+    "file": "qa/certificate-sample.pdf",
+    "pages": 1,
+    "pageSize": [
+      841.89,
+      595.28
+    ],
+    "links": 1,
+    "sha256": "6e1df2e8316e59e4d1fdf851841cef67ff0a26cfd5028c852d8cad304903f731",
+    "scope": "PDF open/text/page/link structure; sample and long-title certificate/receipt visually inspected separately."
+  },
+  {
+    "file": "qa/v50/certificate-long-title.pdf",
+    "pages": 1,
+    "pageSize": [
+      841.89,
+      595.28
+    ],
+    "links": 1,
+    "sha256": "c1bfa1ac41e2ef4b3a45eb42605ac4bad396908ea0abcd8b04cf9f6a2dabe7c1",
+    "scope": "PDF open/text/page/link structure; sample and long-title certificate/receipt visually inspected separately."
+  },
+  {
+    "file": "qa/v50/receipt-fixture.pdf",
+    "pages": 1,
+    "pageSize": [
+      595.28,
+      841.89
+    ],
+    "links": 0,
+    "sha256": "cddf4600f8a3856dc9b5d3fc20dc495f5db0b3604f6c51e03d720a0b980a6404",
+    "scope": "PDF open/text/page/link structure; sample and long-title certificate/receipt visually inspected separately."
+  }
+]

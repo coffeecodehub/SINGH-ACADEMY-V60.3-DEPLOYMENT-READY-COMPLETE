@@ -1,0 +1,5 @@
+
+> singh-academy@48.0.0 check:ui
+> node scripts/check-preserved-ui.mjs
+
+255 protected V47 files checked; 0 differences. This checks bytes, not dynamic render behavior.

@@ -1,0 +1,1 @@
+The delivery environment attempted `npm run install:all`, but the dependency installation did not complete within the tool execution window. No claim of a passing installed production build or resolved dependency audit is made from this environment. Run the documented setup/verify commands on staging before deployment.

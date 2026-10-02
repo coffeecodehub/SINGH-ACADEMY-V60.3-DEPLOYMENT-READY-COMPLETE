@@ -1,0 +1,6 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {courseOffers,courseMonthPeriod,planOffer} from '../src/utils/commerce.js';
+test('individual course offers are fixed month terms, never new lifetime access',()=>{const offers=courseOffers({currency:'USD',price:100,accessMonths:3,pricing:[]});assert.equal(offers[0].durationMonths,3);assert.equal(offers[0].accessDays,0);});
+test('legacy course day option is normalized to whole months',()=>{const offers=courseOffers({currency:'USD',accessMonths:1,pricing:[{label:'Legacy',price:200,accessDays:180}]});assert.equal(offers[0].durationMonths,6);});
+test('repurchasing an active individual course extends from current expiry',()=>{const paid=new Date('2026-10-01T00:00:00Z');const current={status:'active',accessStartsAt:new Date('2026-09-01T00:00:00Z'),accessExpiresAt:new Date('2026-12-01T00:00:00Z')};const out=courseMonthPeriod(current,paid,2);assert.equal(out.startsAt.toISOString(),'2026-09-01T00:00:00.000Z');assert.equal(out.endsAt.toISOString(),'2027-02-01T00:00:00.000Z');});
+test('membership offer is fixed month term',()=>{assert.equal(planOffer({name:'6-Month Membership',price:700,durationMonths:6,currency:'USD'}).durationMonths,6);});

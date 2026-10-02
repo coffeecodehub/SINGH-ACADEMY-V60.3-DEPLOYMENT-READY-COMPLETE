@@ -1,0 +1,65 @@
+
+> singh-academy-backend@48.0.0 test:integration
+> node --test integration/*.test.js
+
+TAP version 13
+# Subtest: V47 database settlement, student completion and admin certificate lifecycle
+not ok 1 - V47 database settlement, student completion and admin certificate lifecycle
+  ---
+  duration_ms: 2.002262
+  type: 'test'
+  location: '/mnt/data/work_v48/singh-academy-v48/backend/integration/v47-checkout-certificates.test.js:7:1'
+  failureType: 'testCodeFailure'
+  error: 'Set TEST_MONGODB_URI to a dedicated test replica set. Production MONGODB_URI is never used by this suite.'
+  code: 'ERR_TEST_FAILURE'
+  stack: |-
+    isolatedDatabase (file:///mnt/data/work_v48/singh-academy-v48/backend/integration/isolation.js:5:16)
+    TestContext.<anonymous> (file:///mnt/data/work_v48/singh-academy-v48/backend/integration/v47-checkout-certificates.test.js:8:17)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+# Subtest: V48 saved assessments, Client Admin review, restart and student billing
+not ok 2 - V48 saved assessments, Client Admin review, restart and student billing
+  ---
+  duration_ms: 1.322745
+  type: 'test'
+  location: '/mnt/data/work_v48/singh-academy-v48/backend/integration/v48-learning-review.test.js:6:1'
+  failureType: 'testCodeFailure'
+  error: 'Set TEST_MONGODB_URI to a dedicated test replica set. Production MONGODB_URI is never used by this suite.'
+  code: 'ERR_TEST_FAILURE'
+  stack: |-
+    isolatedDatabase (file:///mnt/data/work_v48/singh-academy-v48/backend/integration/isolation.js:5:16)
+    TestContext.<anonymous> (file:///mnt/data/work_v48/singh-academy-v48/backend/integration/v48-learning-review.test.js:7:17)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+# Subtest: V48 real HTTP authentication and Academy/CMS role boundaries
+not ok 3 - V48 real HTTP authentication and Academy/CMS role boundaries
+  ---
+  duration_ms: 1.710342
+  type: 'test'
+  location: '/mnt/data/work_v48/singh-academy-v48/backend/integration/v48-role-http.test.js:4:1'
+  failureType: 'testCodeFailure'
+  error: 'Set TEST_MONGODB_URI to a dedicated test replica set. Production MONGODB_URI is never used by this suite.'
+  code: 'ERR_TEST_FAILURE'
+  stack: |-
+    isolatedDatabase (file:///mnt/data/work_v48/singh-academy-v48/backend/integration/isolation.js:5:16)
+    TestContext.<anonymous> (file:///mnt/data/work_v48/singh-academy-v48/backend/integration/v48-role-http.test.js:5:17)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 0
+# fail 3
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 203.669653

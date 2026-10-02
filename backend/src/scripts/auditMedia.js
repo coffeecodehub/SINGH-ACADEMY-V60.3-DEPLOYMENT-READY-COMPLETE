@@ -1,0 +1,3 @@
+import 'dotenv/config';
+import mongoose from 'mongoose';import {connectDB} from '../config/db.js';
+try{await connectDB();const files=mongoose.connection.db.collection('academyMedia.files');const totals=await files.aggregate([{$group:{_id:{$ifNull:['$metadata.scan.status','legacy-not-scanned']},files:{$sum:1},bytes:{$sum:'$length'}}}]).toArray();console.log(JSON.stringify({readOnly:true,scanGroups:totals},null,2));console.log('Legacy files were not scanned, altered or deleted by this command. Review a backup in a maintenance window before any scan/removal workflow.');}catch(e){console.error('Media audit failed:',e.code||e.message);process.exitCode=1;}finally{await mongoose.disconnect();}

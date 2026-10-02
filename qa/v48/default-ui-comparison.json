@@ -1,0 +1,49 @@
+{
+  "scope": "Default static JSX trees using no-op hooks and placeholder child components. Not React/Next browser integration.",
+  "outcomes": [
+    {
+      "file": "frontend/app/page.tsx",
+      "result": "equal default JSX tree"
+    },
+    {
+      "file": "frontend/app/home/page.tsx",
+      "result": "equal default JSX tree"
+    },
+    {
+      "file": "frontend/app/about/page.tsx",
+      "result": "equal default JSX tree"
+    },
+    {
+      "file": "frontend/app/courses/page.tsx",
+      "result": "equal default JSX tree"
+    },
+    {
+      "file": "frontend/app/team/page.tsx",
+      "result": "equal default JSX tree"
+    },
+    {
+      "file": "frontend/app/events/page.tsx",
+      "result": "equal default JSX tree"
+    },
+    {
+      "file": "frontend/app/academy/page.tsx",
+      "result": "equal default JSX tree"
+    },
+    {
+      "file": "frontend/app/reviews/page.tsx",
+      "result": "equal default JSX tree"
+    },
+    {
+      "file": "frontend/app/contact/page.tsx",
+      "result": "equal default JSX tree"
+    },
+    {
+      "file": "frontend/app/book/page.tsx",
+      "result": "equal default JSX tree"
+    },
+    {
+      "file": "frontend/components/layout/SiteFooter.tsx",
+      "result": "equal default JSX tree"
+    }
+  ]
+}

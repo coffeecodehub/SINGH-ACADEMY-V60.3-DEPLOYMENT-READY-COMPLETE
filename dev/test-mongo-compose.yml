@@ -1,0 +1,13 @@
+name: singh-academy-test-db
+services:
+  mongo:
+    image: mongo:8
+    command: ["mongod", "--replSet", "rs0", "--bind_ip_all"]
+    ports: ["127.0.0.1:27018:27017"]
+    tmpfs: ["/data/db:size=512m"]
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand({ping:1}).ok"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+# Local tests only. No credentials, no persistent production data, no public network binding.
